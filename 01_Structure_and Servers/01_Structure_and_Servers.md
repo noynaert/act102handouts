@@ -17,6 +17,13 @@ And the Second Commandment is like unto the first: *Thou shalt not put special c
 |index.html|start page.html|
 |quick_and_easy.html|quick&easy.html|
 
+### Folders
+
+* Folders, Directories, Subdirectories all mean the same thing.
+  * A folder is a collection of files and other folders
+  * Windows, Linux, and Mac all use folders to keep things organized
+* We will work with folders a lot this semester.  Visual Studio Code works best when it is working with files inside folders.
+
 ### Editors
 
 We need an editor that is good at processing simple text files
@@ -32,13 +39,6 @@ Plain old Windows Notepad will work, but I do not recommend it, except in an eme
 * Wordpad
 * Word
 * Any other editor that does text formatting in a gui environment.
-
-### Folders
-
-* Folders, Directories, Subdirectories all mean the same thing.
-  * A folder is a collection of files and other folders
-  * Windows, Linux, and Mac all use folders to keep things organized
-* We will work with folders a lot this semester.  Visual Studio Code works best when it is working with files inside folders.
 
 ## Browsers
 
