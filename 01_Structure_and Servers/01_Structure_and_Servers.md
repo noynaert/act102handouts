@@ -6,7 +6,7 @@
 
 We will be working with text files with an extension of .html
 
-#### Two Greate Commandments in this course
+#### Two Great Commandments in this course
 
 First Commandment: *Thou shalt not put blanks in file names.*
 
