@@ -60,6 +60,7 @@ Common Browsers:
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">↩
     <title>Basic Skeleton for html5</title> 
   </head>
 <body>
