@@ -69,9 +69,9 @@ Common Browsers:
 </html>
 ```
 
-### <!DOCTYPE html>
+### &lt;!DOCTYPE html&gt;
 
-The <!DOCTYPE html> statement is not really HTML.  It is just a message to the browser that tells what type of file is coming.
+The &lt;!DOCTYPE html&gt; statement is not really HTML.  It is just a message to the browser that tells what type of file is coming.
 
 ### Tags
 
