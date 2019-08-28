@@ -2,6 +2,22 @@
 
 The internet hosts two types of computers -- Clients and Servers.
 
+## Addresses
+
+Every computer on the internet must have an address.  Internet addresses take two forms.  The older form is known as IPv4.  The newer addresses are IPv6. Here are some examples
+
+### Examples of older IPv4 addresses
+
+* 150.200.1.1
+* 192.168.1.1
+* 127.0.0.1
+
+### Examples of newer IPv6 addresses
+
+* FE80:0000:0000:0000:0202:B3FF:FE1E:8329
+* FE80::0202:B3FF:FE1E:8329
+* fe00::0
+
 ## Clients
 
 Browsers such as Chrome, Firefox, Edge, Internet Explorer, and Safari are clients.  Clients usually only run when a human user wants to pull something off the Internet (or forgets and leaves their computer on).
@@ -11,6 +27,8 @@ Browsers such as Chrome, Firefox, Edge, Internet Explorer, and Safari are client
 Servers typically run 24 hours a day, 365 days a year. They sit and wait for a client to contact them and request information.
 
 Servers often do not have keyboards or monitors permanently attached.  They often reside in data centers.
+
+Servers have numerical addresses.  But servers often have "URL" addresses as well.  These look like http://missouriwestern.edu or http://turing.cs.missouriwestern.edu.
 
 | A server being installed in a rack|Server racks in a data center|
 |:---:|:---:|

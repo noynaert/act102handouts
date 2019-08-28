@@ -1,5 +1,17 @@
 # Structure of a web page
 
+This unit corresponds roughly to the following references:
+
+* Duckett textbook: Chapter 1
+* ebook: The first half of chapter 1
+* W3 Schools
+  * https://www.w3schools.com/html/default.asp
+  * https://www.w3schools.com/html/html_intro.asp
+  * https://www.w3schools.com/html/html_editors.asp (I disagree with them.  I recommend VS Code)
+  * https://www.w3schools.com/html/html_basic.asp
+  * https://www.w3schools.com/html/html_elements.asp (I called them tags.  W3C calls them elements.)
+  * https://www.w3schools.com/html/html_attributes.asp (You don't need to know the attributes they list right now, but you will need to know them eventually.  We will cover the attributes they list later.  For now just know what an attribute is and its basic syntax of an attribute.)
+
 ## Of Files and Folders
 
 ### Files
