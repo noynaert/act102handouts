@@ -59,7 +59,7 @@ Common Browsers:
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
+  <head lang="en-us">
     <meta charset="UTF-8">↩
     <title>Basic Skeleton for html5</title> 
   </head>
@@ -98,3 +98,16 @@ The text in the &lt;title&gt; is what goes in the browser tab.
 
 The &lt;body&gt; through the &lt;/body&gt; part of the document shows up in the main window.
 
+## Attributes
+
+Sometimes tags have additional information added to them.  The &lt;head lang="en-us"&gt; tag has some extra information tacked on.  The part that says lang="en-us" is called an ***attribute***.  In this case the attribute tells the browser that this page is written in English, and specifically US English.  The browser can use this information to determine which alphabet to use.  If the language had specified Russian, the browser would use a Cyrillic script.
+
+### Attribute format
+
+Attributes always have the same format.  They start with a key work like "lang".  Then they have an equal sign.  Last they have the value.  Normally the value is enclosed in quotation marks.  HTML5 technically does not require quotes if the attribute is a single word, but the convention is to always use the quotes.
+
+There is one other tag that has an attribute.  What is it?
+
+#### Special Note On Oddball Computer Science Jargon
+
+In Computer Science jargon, the " symbol is often called "Double quotes" or "Double quote marks."  We use this terminology because the apostrophe symbol ' is sometime used as quote marks as well.  What normal humans sometimes call an apostrophe is known as a "Single quote" by Computer Scientists.  In most language there are subtle but important differences between a single quote and a double quote.

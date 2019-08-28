@@ -56,7 +56,8 @@ Your P: drive should have a directory called P:\public_html.
 
 ## Things to know
 
-* What is client software? Give some examples?
+* What is client software? Give some examples.
 * What is a server?  How is a computer running a server different than a computer running a client?
 * What is the significance of the file name index.html?
 * What is a landing page?
+  
