@@ -1,6 +1,6 @@
 # Text in HTML
 
-# Of Bits and Bytes
+## Of Bits and Bytes
 
 * A bit stores a one or a zero
 
