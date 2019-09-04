@@ -24,6 +24,12 @@ And example of a section follows:
 </section>
 ```
 
+## Footers
+
+The &lt;footer>&lt;/footer> tag goes at the bottom of your document. Your document may have several footer tags, but they should be the last item in your document right above the &lt;/body> tag.
+
+The footer tag is used for things like listing contact information or sources.
+
 ## Validation
 
 ***Validate early and often!*** It is easier to validate when you have a little bit of source code.
