@@ -4,6 +4,7 @@
 
 * [W3 Schools HTML Tutorial](https://www.w3schools.com/html/html_lists.asp)
 * Textbook, Chapter 4
+* [Web Developer's Reference Guide (ebook), Chapter 1](http://ezproxy.missouriwestern.edu:2048/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=1213515&site=ehost-live&scope=site) for students who want to dig a little deeper
 
 ## Sections
 
@@ -80,15 +81,7 @@ Here is a list of the best movies of all times according to https://www.ranker.c
 </ol>
 ```
 
-The HTML tutorial explains the use of the type attribute.  Attributes are technically not styling.  Therefore feel free to use them.
-
-Type|Description
-:---:|:---
-type="1"|The list items will be numbered with numbers (default)
-type="A"|The list items will be numbered with uppercase letters
-type="a"|The list items will be numbered with lowercase letters
-type="I"|The list items will be numbered with uppercase roman numbers
-type="i"|The list items will be numbered with lowercase roman numbers
+The HTML tutorial explains the use of the type attribute.  However, this style of doing types is obsolete.  Do not use it at this time.  Once we get to CSS we will learn to do the styling in a better way.
 
 ### Definition Lists
 
