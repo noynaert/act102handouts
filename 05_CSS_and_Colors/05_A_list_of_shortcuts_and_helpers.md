@@ -9,6 +9,8 @@ These shortcuts should work in Windows 10 and most Linux distributions.  Some wi
 * Ctrl-c : Copies selected text
 * Ctrl-v : Pastes text
 * Ctrl-x : Cuts text and puts it on the clipboard
+* Ctrl-z : Undo (may be repeated)
+* Alt-tab: Switch between applications
 
 ## Tiling the screen
 
