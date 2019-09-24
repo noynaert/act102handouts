@@ -92,6 +92,14 @@ h1 {color: #FF0000;
    }
 ```
 
-#### Notes about the color-mixing image
+## Other colors to know
+
+If you are dealing with colors you need to know a couple of other color names as well:
+
+* Cyan : Green + Blue (no red)
+* Magenta: Red + Blue (no green)
+* Yellow: Red + Green (no blue)
+
+## Notes about the color-mixing image
 
 I made the image using https://www.kapwing.com/ from youtube video https://www.youtube.com/watch?v=xzmXrC-Yzfc .  I saved to GIF format, so depending on your monitor or display there may be some odd artifacts in the image.  We will talk about why that is happening in the unit on images.
