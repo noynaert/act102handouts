@@ -65,3 +65,5 @@ If the stylesheet is called "style.css" and is in the same directory (folder) as
   <link rel="stylesheet" href="style.css">
   <title>Demo of Styles</title>
 </head>
+
+The order of the statements in the head does not matter.
