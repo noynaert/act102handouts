@@ -34,7 +34,7 @@ A colon : goes between the property and the values
 
 The semicolon ; separates rules. If there is only one rule you do not need to put the semicolon at the end, but it is a good idea to do so.
 
-### Examples of ules
+### Examples of Rules
 
 ```css
 p {color: blue;} <!-- Turns all text on a page blue -->
