@@ -8,8 +8,9 @@ The *class* attribute is similar to the *id* attribute.  The difference is that 
 <p class="important">Do not save your password in plain text.</p>
 <p>You should visit <a href="security.html" class="important">this security website</a> before you go on vacation.</p>
 <ul>
-   <li class="important">Pizza<li>
+   <li class="important">Pizza</li>
    <li>vegetables</li>
+   <li class="important">first aid kit</li>
 </ul>
 ```
 
@@ -43,9 +44,7 @@ It is possible for an element to have be in more than one class.  In that case, 
 </ul>
 ```
 
-### In CSS
-
-In a stylesheet, classes are indicated by putting a period in front of the class name.
+---
 
 ## Images
 
@@ -70,6 +69,8 @@ The first example shows how to do an image in the same folder.  The second shows
 
 * &lt;img src="kitten.jpg" alt="Picture of a cute kitten">
 * &lt;img src="images/kitten.jpg" alt="Picture of a cute kitten">
+
+---
 
 ## The &lt;div&gt; Tag
 
@@ -98,6 +99,8 @@ There is always a blank line placed before and after a &lt;div> tag.
   <!-- Section continues -->
 </section>
 ```
+
+---
 
 ## The &lt;span&gt; Tag
 
