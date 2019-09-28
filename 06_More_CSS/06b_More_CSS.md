@@ -73,7 +73,7 @@ If you do padding as in the above example, the same amount of padding with be ap
 
 Reference: https://www.w3schools.com/css/css_border.asp
 
-Borders can be complex, so start simple and add sophisticatoin as you need it.
+Borders can be complex, so start simple and add sophistication as you need it.
 
 A border is immediately outside padding, if any
 
