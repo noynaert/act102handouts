@@ -107,10 +107,13 @@ Reference: https://www.w3schools.com/css/css_margin.asp
 * Margins take the color of the container, not the element
 * Adjacent margins overlap.  For example, if an element has a bottom margin of 15px and the item below it has a margin of 10px, then you might expect a total margin of 25px.  But the margins overlap, so the margin would actually be 15px.  
 
+
 #### Using Margin properties to center an element
 
+There really is "One wierd trick" to centering text.
+
 ```css
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
 ```
 
