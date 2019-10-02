@@ -110,7 +110,7 @@ Reference: https://www.w3schools.com/css/css_margin.asp
 
 #### Using Margin properties to center an element
 
-There really is "One wierd trick" to centering text.
+There really is "One wierd trick" to centering text.  Basically the 0 means set the top and bottom margins to 0 (no margin, at the top or bottom, and automatically balance the left and right margins.) The width may be anything less than 100%.
 
 ```css
   margin: 0 auto;

@@ -1,4 +1,4 @@
-# 06c Selecting Colors
+# 07a Selecting Colors
 
 ## References
 
