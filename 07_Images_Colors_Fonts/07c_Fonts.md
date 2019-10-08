@@ -51,10 +51,6 @@ Google fonts has a category called "Display Fonts"  It includes fonts that are g
 
 ## Fonts you should know for the exam
 
-* **Courier** or Courier New
-  * This is a fixed with serif font
-  * Used on old typewriters
-  * Takes up a lot of space
 * **Roman**
   * Serif, proportional font
   * Used for old newspapers (Before the New York Times)
@@ -66,6 +62,14 @@ Google fonts has a category called "Display Fonts"  It includes fonts that are g
 * **Arial** or Helvetica
   * These are very similar fonts.  Helvetica is the name you usually see on Macs.  Arial is on everything else.
   * Proportional sans serif
+*  **Courier** or Courier New
+  * This is a fixed with serif font
+  * Used on old typewriters
+  * Takes up a lot of space
+* **Lucinda Console**
+  * Lucinda is a family of fonts intended to remain legible at small sizes
+  * Lucinda Console is sans serif and monospaced
+  * Popular with programmers and in console applications
 
 ## Web Safe Fonts
 
