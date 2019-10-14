@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>States</title>
+    <style>
+        body {--borderColor:white;}
+        table,tr,td,th {border:1px solid var(--borderColor);
+                     border-collapse:separate;
+        }
+        table caption{
+            font-size:200%;
+            font-weight:bold;
+            border:1px solid var(--borderColor);
+            padding:0.5em;
+        }
+        .number{text-align:center;}
+        thead {background-color:lightblue;}
+        tbody {background-color:tan;}
+        tfoot {background-color:lightsalmon;}
+    </style>
+</head>
+<body>
+    <h1>Some States</h1>
+    <table>
+        <caption>Some data about selected states</caption>
+        <thead>
+            <tr>
+                <th>State</th><th>Capital</th><th>Population</th><th>Flag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Missouri</td>
+                <td>Jefferson City</td>
+                <td class="number">6,113,532</td>
+                <td><img src="images/125px-Flag_of_Missouri.svg.png"alt="Flag of Missouri"></td>
+            </tr>
+            <tr>
+                    <td>Iowa</td>
+                    <td>Iowa City</td>
+                    <td class="number">3,145,711</td>
+                    <td><img src="images/125px-Flag_of_Iowa.svg.png"alt="Flag of Iowa"></td>
+            </tr>
+            <tr>
+                    <td>Kansas</td>
+                    <td>Topeka</td>
+                    <td class="number">2,913,123</td>
+                    <td><img src="images/125px-Flag_of_Kansas.svg.png"alt="Flag of Kansas"></td>
+            </tr>
+            <tr>
+                    <td>Illinois</td>
+                    <td>Springfield</td>
+                    <td class="number">12,802,023</td>
+                    <td><img src="images/125px-Flag_of_Illinois.svg.png"alt="Flag of Missouri"></td>
+            </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4" class="number">Total Population: 24,974,389</td>
+        </tr>
+    </tfoot>    
+    </table>
+</body>
+</html>
