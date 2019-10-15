@@ -9,13 +9,13 @@
 ### Reference Videos
 
 * [CSS Variables](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fcb5a4e4-1a20-4fe0-b605-aae5011db3f6) -- ***Guest video by Darth V.*** -- Apparently Darth was upset because I didn't show people Cascading variables before Homework 6.  So he contributed a video.
-* [Basic Tables](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=321adcb5-7119-4402-8318-aae6005c591e)
+* [Basic Tables](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4a545b4e-9ad0-4856-bc3d-aae6005c58f4)
 * [Head and Captions](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a524cc2-dc99-4fe1-97a8-aae6005c58d4)
 * [thead, tbody, tfoot](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=321adcb5-7119-4402-8318-aae6005c591e)
 
 ## Basic Tables in all Versions of HTML
 
-[Video for Basic Tables](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=321adcb5-7119-4402-8318-aae6005c591e)
+[Video for Basic Tables](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4a545b4e-9ad0-4856-bc3d-aae6005c58f4)
 
 ```html
     <table>
