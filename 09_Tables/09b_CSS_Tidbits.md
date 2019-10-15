@@ -85,3 +85,10 @@ Moving the panel elsewhere
 
 Firefox has something similar.
 
+### HTML Validator for Chrome (and Firefox)
+
+The HTML Validator is an extension for Chrome that runs within developer mode.
+
+[HTML Validator for Chrome](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk?hl=en-US)
+
+I found that I had to *completely* close Chrome and then reopen it.  (Right-click on the Chrome icon in the status bar and Quit.)
