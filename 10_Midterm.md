@@ -1,4 +1,0 @@
-# Midterm
-
-* Exam
-* Project
