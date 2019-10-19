@@ -16,7 +16,8 @@ So far we have seen the following selectors:
 * item1, item2, item3 -- Commas separate a *list* of selectors.  The rule is applied to all elements on a list.  We often use this with tables:
 
 ```css
-   table, tr, th, td, tr, caption {border:1px solid black;}
+   h2, h3, h4, h5, h6{color:green;}
+   table, tr, th, td, caption {border:1px solid black;}
 ```
 
 But there are many, many other selectors.  The full list is at [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp).  You don't need to know them all.  You may look them up if you need them. But we will add 2 here.
