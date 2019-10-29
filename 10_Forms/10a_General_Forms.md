@@ -38,17 +38,27 @@ Most controls do not have any explanatory text.  Therefore they usually go in a 
 
 This is for a single line of text input.  The name is important.  It should be descriptive of the contents of the field. As usual keep it simple, meaningful, and use lower case.  Make it a single word.
 
-There are other fields we could enter.  The value attribute gives an initial set of text to the field.
+There are other fields we could enter.  For example, the value attribute gives an initial set of text to the field.
+
+Be careful using old websites about input fields.  Things like the "size" tag in the input field should no longer be used.
+
+### &lt;input type="submit">
+
+This is one way to submit the contents of a form.  You may give it a name, but do not have to.  You may also change the contents of the button by specifying a value.
+
+
+### &lt;textarea name="comments"> 
+
+Textareas are used when there are multiple lines or paragraphs of text rather than a single line.  You should specify the width and height in css.
+
+Textareas is a paired tag.  Anything between the tags is the default content.
 
 ```html
 <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
-  <p>
-    Age: 
-    <input type="text" name="age" value="18"> 
-  </p>
-  <p>
-    Height: <input type="text" name="feet">ft. <input type="text" name="inches">in.
-  </p>
-  <input type="submit">
+        <textArea name="age" value="18">
+              Put your comments here. 
+        </textArea>
+
+    <input type="submit" value="Go for it!">
 </form>
 ```
