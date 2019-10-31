@@ -58,7 +58,10 @@ Textareas is a paired tag.  Anything between the tags is the default content.
         <textArea name="age" value="18">
               Put your comments here. 
         </textArea>
-
+    <br>
     <input type="submit" value="Go for it!">
 </form>
 ```
+
+### Checkboxes
+
