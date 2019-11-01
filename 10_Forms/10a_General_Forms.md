@@ -46,6 +46,21 @@ Be careful using old websites about input fields.  Things like the "size" tag in
 
 This is one way to submit the contents of a form.  You may give it a name, but do not have to.  You may also change the contents of the button by specifying a value.
 
+```html
+<h1>Forms</h1>
+    <h2>Text input and submit button</h2>
+    <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+        <p>
+          Age: 
+          <input type="text" name="age" value="18"> 
+        </p>
+        <p>
+          Height: <input type="text" name="feet">ft. <input type="text" name="inches">in.
+        </p>
+        <input type="submit">
+      </form>
+```
+![Example of Text Input in the browser](exampleCode/images/01TextAndSubmit.png)
 
 ### &lt;textarea name="comments"> 
 
@@ -63,5 +78,49 @@ Textareas is a paired tag.  Anything between the tags is the default content.
 </form>
 ```
 
+![Example of textarea in the browser](exampleCode/images/02TextArea.png)
+
 ### Checkboxes
 
+Checkboxes are often grouped.  Sometimes you will create a div with a border around the div.  
+
+Each textbox in the group has to have exactly the same name.  The value is what is sent to the action url.  The values should be lower case, descriptive and single words or camelCase.
+
+The following code shows two text boxes.  One uses a div, the other uses a tables with no borders.
+
+```html
+<h1>Forms</h1>
+    <h2>Checkboxes made with &lt;br&gt; tags</h2>
+    <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+       <div>   
+         Diet: <br>
+          <input type="checkbox" name="diet" value="sad">Standard American Diet<br>
+          <input type="checkbox" name="diet" value="vegetarian">Vegetarian<br>
+          <input type="checkbox" name="diet" value="vegan">Vegan<br>
+          <input type="checkbox" name="diet" value="paleo">Paleo<br>
+          <input type="checkbox" name="diet" value="keto">Ketogenic<br>
+          <input type="checkbox" name="diet" value="other">Other <input type="text" name="otherDiet">  
+       </div>
+       <br>
+       <input type="submit">
+      </form>
+
+      <hr>
+     <h2>Checkbox as a table</h2>
+      <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+        <table>
+            <tr><th>Diet</th><th>&nbsp;</th></tr>
+            <tbody>
+  
+            </tbody>
+            <tr><td><input type="checkbox" name="vehicle" value="chevy"></td><td>Chevrolet</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="ford" checked></td><td>Ford</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="dodge"></td><td>Dodge</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="other"></td><td>Other: <input type="text" name="otherVehicle"></td></tr>
+        </table>
+        <br>
+         <input type="submit">
+        </form>
+```
+
+![Example of two check box lists in a browser](exampleCode/images/03Checkboxes.png)
