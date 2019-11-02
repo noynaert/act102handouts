@@ -51,16 +51,27 @@ This is one way to submit the contents of a form.  You may give it a name, but d
     <h2>Text input and submit button</h2>
     <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
         <p>
-          Age: 
+          <label>Age:</label>
           <input type="text" name="age" value="18"> 
         </p>
         <p>
-          Height: <input type="text" name="feet">ft. <input type="text" name="inches">in.
+          <label>Height:</label> <input type="text" name="feet">ft. <input type="text" name="inches">in.
         </p>
         <input type="submit">
       </form>
 ```
 ![Example of Text Input in the browser](exampleCode/images/01TextAndSubmit.png)
+
+
+#### Text and &lt;label> tags
+
+The &lt;input> tag does not have any type of label associated with it.  But users almost certainly need a label. Text can be just inserted within the form.  It is also possible to use div, p, table, and br tags to control layout.
+
+In later versions of html there is a &lt;label>...&lt;/label> tag.  It is a good idea to use label tags with input fields and any other field that does not have its own text and labels built in.
+
+#### For advanced users
+
+[Here is a nice tutorial on animated input boxes](https://www.youtube.com/watch?v=IxRJ8vplzAo).  It is optional, and only for people that are bored or want some extra material.
 
 ### &lt;textarea name="comments"> 
 
@@ -93,7 +104,7 @@ The following code shows two text boxes.  One uses a div, the other uses a table
     <h2>Checkboxes made with &lt;br&gt; tags</h2>
     <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
        <div>   
-         Diet: <br>
+         <label>Diet:</label> <br>
           <input type="checkbox" name="diet" value="sad">Standard American Diet<br>
           <input type="checkbox" name="diet" value="vegetarian">Vegetarian<br>
           <input type="checkbox" name="diet" value="vegan">Vegan<br>
