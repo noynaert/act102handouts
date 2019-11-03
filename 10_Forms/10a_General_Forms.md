@@ -135,3 +135,59 @@ The following code shows two text boxes.  One uses a div, the other uses a table
 ```
 
 ![Example of two check box lists in a browser](exampleCode/images/03Checkboxes.png)
+
+## Methods -- GET and POST
+
+The http protocol has several methods for sending data from the client to the server:
+
+* GET
+* POST
+* PUT
+* HEAD
+* DELETE
+* PATCH
+* OPTIONS
+
+However, in this course we will only be concerned with GET and POST, and we will mainly use GET.
+
+### GET Method
+
+* Get is used to retrieve information from a server
+* Get data is sent in the URL itself
+* ? is used to separate the base URL from the fields. 
+* & is used between fields
+* The format of each field is `name=value`
+* If there are blank spaces, the values must be "url encoded"
+
+```
+https://catfact.ninja/facts?limit=5
+```
+* The web site itself is `catfact.ninja/facts`
+* ? indicates the start of data
+* `limit` is the number of facts requested
+* `5` facts are being requested
+* Try putting the url in your browser.  Try to get different numbers
+
+```
+https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php?age=18&feet=5&inches=11
+```
+* The web site itself is https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php
+* There are three fields.  Age is 18, feet is 5, and inches are 11.  Try some different values.  Also, try adding a weight field with a value of 150.
+
+```
+https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php?first="Frank"&last=Von%20Peure%2C%20Sr.
+```
+
+Text input gets tricky if you type in blanks or most special characters. In the above URL look at how the blank and comma were encoded.
+
+Browsers automatically do URL encoding as necessary when blanks or special characters are parts of input fields on a form.  You can explore encoding on your own at [https://www.urlencoder.io/](https://www.urlencoder.io/)
+
+**Advantages of GET method**
+
+URLs may be copy/pasted, bookmarked, and cached
+
+**Disadvantages of GET method**
+
+* URL total length must be under 2048 characters
+* URL encoding only works with ASCII characters (not unicode)
+* Not good for sensitive information like passwords
