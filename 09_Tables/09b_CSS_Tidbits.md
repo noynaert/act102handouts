@@ -1,5 +1,10 @@
 # 09b CSS Tidbits and Inspecting Code
 
+## Videos
+
+* [Part 1 on Selectors](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a71218-31e3-4f2b-8c77-aaeb01675614)
+* [Part 2 on Minifying and Developer Mode](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=71901bab-bbbc-4ec2-b916-aaeb016755ec)
+
 ## More Selectors
 
 Review:  Selectors are part of the CSS rule that occurs to the left of the {...} curly braces.  For example, "body" is the selector in the following:

@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <title>09b Tidbits Examples</title>
     <style>
-        
+        table *{font-size:115%;}
+        table {width:50em;}
+        h1, h2, h3, h4, h5, h6 {background-color:gold;}
+        table, caption, th, td {border:3px dashed blue;}
+        table caption {color: orange;}
+
+        figure p {text-align:center}
+
+        figure {
+            width:200px;    
+            border:1px solid black;
+        }
+        div {background-color: pink;}
+        div p {color:green;}
+    </style>
 </head>
 <body>
     <h1>Examples from 09b, Tidbits</h1>
+
+    <p>Some class schedules</p>
 
     <table id="csmp">
         <caption>
@@ -63,6 +79,17 @@
                 </tr>
             </tbody>
         </table>
-    
+    <div id="animals">
+        <figure id="puppy">
+            <img src="images/200x133puppy.jpg" alt="A Puppy">
+            <figcaption>
+                <p>A puppy explores the outdoors</p>
+            </figcaption>
+        </figure>
+        <figure id="kitten">
+            <img src="images/200x300kitten.jpg" alt="a kitten">
+            <p>A kitten explores the outdoors</p>
+        </figure>
+    </div>
 </body>
 </html>
