@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sample forms</title>
+    <style>
+      form { 
+          border: 1px solid black;
+          background-color:lightgray;
+      }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <h2>Checkboxes made with &lt;br&gt; tags</h2>
+    <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+       <div>   
+         <label>Diet:</label> <br>
+          <input type="checkbox" name="diet" value="sad">Standard American Diet<br>
+          <input type="checkbox" name="diet" value="vegetarian">Vegetarian<br>
+          <input type="checkbox" name="diet" value="vegan">Vegan<br>
+          <input type="checkbox" name="diet" value="paleo">Paleo<br>
+          <input type="checkbox" name="diet" value="keto">Ketogenic<br>
+          <input type="checkbox" name="diet" value="other">Other <input type="text" name="otherDiet">  
+       </div>
+       <br>
+       <input type="submit">
+      </form>
+
+      <hr>
+     <h2>Checkbox as a table</h2>
+      <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+        <table>
+            <tr><th>Diet</th><th>&nbsp;</th></tr>
+            <tbody>
+  
+            </tbody>
+            <tr><td><input type="checkbox" name="vehicle" value="chevy"></td><td>Chevrolet</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="ford" checked></td><td>Ford</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="dodge"></td><td>Dodge</td></tr>
+            <tr><td><input type="checkbox" name="vehicle" value="other"></td><td>Other: <input type="text" name="otherVehicle"></td></tr>
+        </table>
+      
+        <br>
+         <input type="submit">
+        </form>
+  
+    </body>
+</html>
