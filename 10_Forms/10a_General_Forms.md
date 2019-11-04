@@ -73,69 +73,6 @@ In later versions of html there is a &lt;label>...&lt;/label> tag.  It is a good
 
 [Here is a nice tutorial on animated input boxes](https://www.youtube.com/watch?v=IxRJ8vplzAo).  It is optional, and only for people that are bored or want some extra material.
 
-### &lt;textarea name="comments"> 
-
-Textareas are used when there are multiple lines or paragraphs of text rather than a single line.  You should specify the width and height in css.
-
-Textareas is a paired tag.  Anything between the tags is the default content.
-
-```html
-<form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
-        <textArea name="age" value="18">
-              Put your comments here. 
-        </textArea>
-    <br>
-    <input type="submit" value="Go for it!">
-</form>
-```
-
-![Example of textarea in the browser](exampleCode/images/02TextArea.png)
-
-### Checkboxes
-
-Checkboxes are often grouped.  Sometimes you will create a div with a border around the div.  
-
-Each textbox in the group has to have exactly the same name.  The value is what is sent to the action url.  The values should be lower case, descriptive and single words or camelCase.
-
-The following code shows two text boxes.  One uses a div, the other uses a tables with no borders.
-
-```html
-<h1>Forms</h1>
-    <h2>Checkboxes made with &lt;br&gt; tags</h2>
-    <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
-       <div>   
-         <label>Diet:</label> <br>
-          <input type="checkbox" name="diet" value="sad">Standard American Diet<br>
-          <input type="checkbox" name="diet" value="vegetarian">Vegetarian<br>
-          <input type="checkbox" name="diet" value="vegan">Vegan<br>
-          <input type="checkbox" name="diet" value="paleo">Paleo<br>
-          <input type="checkbox" name="diet" value="keto">Ketogenic<br>
-          <input type="checkbox" name="diet" value="other">Other <input type="text" name="otherDiet">  
-       </div>
-       <br>
-       <input type="submit">
-      </form>
-
-      <hr>
-     <h2>Checkbox as a table</h2>
-      <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
-        <table>
-            <tr><th>Diet</th><th>&nbsp;</th></tr>
-            <tbody>
-  
-            </tbody>
-            <tr><td><input type="checkbox" name="vehicle" value="chevy"></td><td>Chevrolet</td></tr>
-            <tr><td><input type="checkbox" name="vehicle" value="ford" checked></td><td>Ford</td></tr>
-            <tr><td><input type="checkbox" name="vehicle" value="dodge"></td><td>Dodge</td></tr>
-            <tr><td><input type="checkbox" name="vehicle" value="other"></td><td>Other: <input type="text" name="otherVehicle"></td></tr>
-        </table>
-        <br>
-         <input type="submit">
-        </form>
-```
-
-![Example of two check box lists in a browser](exampleCode/images/03Checkboxes.png)
-
 ## Methods -- GET and POST
 
 The http protocol has several methods for sending data from the client to the server:
@@ -191,3 +128,16 @@ URLs may be copy/pasted, bookmarked, and cached
 * URL total length must be under 2048 characters
 * URL encoding only works with ASCII characters (not unicode)
 * Not good for sensitive information like passwords
+
+### POST method
+
+Technically the POST method is supposed to be used for "posting" new information to a database or other data repository.  However, it is often used as an alternative to the GET method.
+
+The POST method passes data in headers "behind the scene."  This means the data being passed is not available in the URL.  The data in POST may be encrypted for security.
+
+* POST method does not limit the length
+* POST data cannot be cached
+* POST data is not stored in the browser history
+
+## APIs
+
