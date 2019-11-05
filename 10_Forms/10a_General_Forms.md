@@ -141,3 +141,13 @@ The POST method passes data in headers "behind the scene."  This means the data 
 
 ## APIs
 
+API means "Application Programming Interface."  There are a couple of different meanings to API, but in this class an API means a web site that processes data from a GET, PUT, or other method and returns some data.
+
+APIs can return data in a variety of formats.  The most common are
+
+* JSON (The most common form currently.  CatFacts uses this format)
+* XML (related to html, but with more flexible tags)
+* plain text
+* .csv format that may be loaded into Excel
+* .html format as a webpage
+  

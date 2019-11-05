@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sample forms</title>
+    <style>
+      form { 
+          border: 1px solid black;
+          background-color:lightgray;
+      }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <h2>Radio Buttons</h2>
+    <h3>With &lt;fieldset> in <span style="background-color:yellow">yellow</span></h3>
+    <form method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+      <fieldset id=location style="background-color:yellow">
+         <label>Location:</label> <br>
+          <input type="radio" name="location" value="agenstein">Agenstein Hall<br>
+          <input type="radio" name="location" value="remington">Remington Hall<br>
+          <input type="radio" name="location" value="murphy">Murphy Hall<br>
+      </fieldset>
+       <br>
+       <input type="submit">
+      </form>
+
+   
+  
+    </body>
+</html>
