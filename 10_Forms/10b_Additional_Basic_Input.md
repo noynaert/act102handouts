@@ -64,6 +64,15 @@ The following code shows two text boxes.  One uses a div, the other uses a table
 
 ![Example of two check box lists in a browser](exampleCode/images/03Checkboxes.png)
 
+### checked attribute
+
+You may add the attribute ```checked``` to any checkbox on the list.  There is no ="value" part to this attribute.
+
+```html
+<input type="checkbox" name="diet" value="keto" checked>
+```
+
+---
 ### Radio Buttons 
 
 ![Car Radio with buttons](images/car-radio-buttons-300x190.jpg)
@@ -86,6 +95,8 @@ The idea with radio buttons is that only one may be selected at a time.  Once a 
 ```
 ![Radio Buttons on a form](images/radio.png)
 
+The ```checked``` attribute may be used with radio buttons.
+
 #### &lt;fieldset>
 
 The &lt;fieldset> is a fairly new html tag.  It is meant to group related controls.  Previous versions of html would have just used a <div> in most cases.  Note that &lt;br> tags are still required.
@@ -103,4 +114,41 @@ fieldset {
   padding-right: 0.75em;
   border: 2px groove (internal value);
 }
+```
+
+### Drop down or &lt;select> controls
+
+Functionally, drop-down lists give the same effect as checklists.  They give the user a list of options, but the user may only pick one.  Drop-down lists are better when there is a long list of choices, such as all the states in the US.
+
+In html5 there is a "multiple" option that allows selecting multiple items like a checkbox.
+
+The select tag is used for drop-down lists.  It does not follow the input="type" model.
+
+The entire dropdown is inclosed in a paired &lt;select> tag.  Each item on the dropdown is indicated by an &lt;option> tag.  The option should contain a value.  The text visible to the user is put between the opening and closing &lt;option> and &lt;/option> tags.  If you don't specify a value, then the text in the tag is used as the option.
+
+One option may have an attribute ```selected```. This works like a ```checked``` attribute.  There is no ="value" part of this attribute.  If no option has the selected option then the first option is used as the default.
+
+```html
+       <label>State:</label> 
+           <select name="state">
+              <option selected >Pick a state</option>
+              <option value="illinois">Illinois</option>
+              <option value="iowa">Iowa</option>
+              <option value="missouri">Missouri</option>
+         </select>
+```
+
+![Drop Down Example](images/dropdown.png)
+
+### Hidden
+
+The input type "hidden" may seem odd at first.  It is considered a control, but the user does not see it.
+
+It is very useful for passing arguments that an api may require, but which do not need to be specified in this situation.
+
+The value in hidden fields is not shown to the user, but it is not exactly secret.  The user can see the value when they view the source.
+
+```html
+        <label>Height:</label> <input type="text" name="feet">ft. <input type="text" name="inches">in.
+        <input type="hidden" name="units" value="english"
 ```
