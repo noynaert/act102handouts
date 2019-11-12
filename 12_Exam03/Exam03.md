@@ -7,6 +7,11 @@ The exam will be on the following dates:
 
 The exam will be based primarily on the Github notes.  Also be sure to look at the text and W3Schools links in the notes
 
+The exam will have fewer multiple choice questions and more code writing.
+
+* You should be able to write a complete table including &lt;thead> and &lt;tbody>
+* Complete forms.  This may include the input types listed in the notes on github as well as the attributes like ```required``` and ```pattern```.
+
 The exam will cover 09_Tables, 10_Forms, and 11_More_Form_Controls from the github notes.
 
 There are a lot of forms with different syntax.  Therefore I am going to allow everyone to bring a 4x6 or 3x5 note card as a cheatsheet.
