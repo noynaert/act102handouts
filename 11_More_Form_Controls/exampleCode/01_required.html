@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>required</title>
+    <style>
+       .required:after{
+           color:red;
+           content: "* "
+       }
+    </style>
+</head>
+<body>
+    <form>
+        <p class="required">Type something: <input type="text" required></p>
+        <p><input type="submit"></p>
+    </form>
+    <p>&nbsp;</p>
+    <p><span class="required"></span> indicates required field</p>
+</body>
+</html>
