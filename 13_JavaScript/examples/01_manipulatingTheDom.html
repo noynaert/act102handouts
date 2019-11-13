@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Manipulating the DOM</title>
+    <script>
+       function makeRed(){
+           var body;
+           body = document.body;
+           body.style.color="red";
+       }
+       function makeBlue(){
+           var body;
+           body = document.body;
+           body.style.color="blue";
+       }
+    </script>
+</head>
+<body>
+    <h1>Change colors</h1>ne
+    <p>
+        <button onClick="makeRed()" >Red</button> 
+        <button onClick="makeBlue()">Blue</button>
+    </p>
+</body>
+</html>
