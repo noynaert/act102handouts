@@ -15,6 +15,12 @@ The European Computer Manufacturers Association (ECMA) ended the browser wars.  
 
 The current version of JavaScript or EcmaScript was released in late 2015.  There have been minor revisions since then, but the core of EcmaScript is unchanged from 2015.  ***Do not trust any JavaScript video or article written before 2016.*** It probably uses an old version of JavaScript.
 
+## JavaScript is not Java
+
+JavaScript and Java are two different languages although they were developed at roughly the same time.  There are a few elements of syntax they have in common, but there are many differences
+
+Java is a true Object-Oriented Language that uses classes to define objects.  JavaScript also has objects, but it is a much looser form of objects based on prototypes rather than classes.
+
 ## The DOM
 
 DOM stands for "Document Object Model."  
@@ -39,3 +45,9 @@ The above html would generate the following DOM.  The browser reads the code and
 ## Javascript is about manipulating the DOM
 
 The primary use for JavaScript is "Manipulating the DOM."  JavaScript can read from the DOM and also change the DOM after the page loads.
+
+JavaScript does three things with the DOM
+
+1. JavaScript can query the DOM.  The main use is getting values from input fields
+2. Detect events happening with the DOM
+3. Change the DOM after the page loads.
