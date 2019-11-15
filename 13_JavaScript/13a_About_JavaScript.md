@@ -2,10 +2,13 @@
 
 ## History
 
-
 What we now know as JavaScript was developed in 1995 by Netscape, a forerunner of the FireFox browser 
 
 ![Netscape Logo](images/240px-Netscape_icon.svg.png)
+
+## JavaScript is in the browser
+
+With most computer languages a developer must download a compiler or interpreter for the language.  That is not true with JavaScript when it is used in web pages.  A JavaScript interpreter is built into most browsers.  You only have to download JavaScript if you are doing server-side scripting.
 
 ### The Browser Wars
 
@@ -13,7 +16,7 @@ In the late 1990s we had the "Browser War."  Each browser had its own version of
 
 The European Computer Manufacturers Association (ECMA) ended the browser wars.  They standardized the "DOM" and JavaScript.  The various browsers ended the Browser War and all standardized on the ECMA DOM and JavaScript.  In fact, technically modern JavaScript is "EcmaScript" but we generally use the name JavaScript anyway.
 
-The current version of JavaScript or EcmaScript was released in late 2015.  There have been minor revisions since then, but the core of EcmaScript is unchanged from 2015.  ***Do not trust any JavaScript video or article written before 2016.*** It probably uses an old version of JavaScript.
+The current version of JavaScript or ***EcmaScript*** was released in late 2015.  There have been minor revisions since then, but the core of EcmaScript is unchanged from 2015.  ***Do not trust any JavaScript video or article written before 2016.*** It probably uses an old version of JavaScript.
 
 ## JavaScript is not Java
 
