@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Script Tag</title>
+</head>
+
+<body>
+  <h1>Hello</h1>
+  <p id="sentence">I am an almost empty web page.</p>
+  <script>
+    document.write(document.lastModified);
+    console.log("Only the programmer is likely to see this");
+    console.log(document.head);
+    //alert("Hi, there!");
+    var paragraph;
+    paragraph = document.getElementById("sentence");
+    console.log(paragraph.innerHTML);
+    paragraph.innerHTML = "Something else.";
+
+  </script>
+  <script src="url.js"></script>
+</body>
+
+</html>

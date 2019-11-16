@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script>
+    function setEarliestShipDate() {
+      var today;
+      var whenElement;
+      today = new Date().toISOString().substr(0, 10);
+      shipByDate = document.getElementById("shipByDate");
+      console.log(shipByDate);
+      shipByDate.min = today;
+      console.log(shipByDate);
+    }
+  </script>
+</head>
+
+<body onload="setEarliestShipDate()">
+  <form>
+    <input type="date" min="2019-01-01;" max="2019-12-31" id="shipByDate">
+    <input type="submit">
+  </form>
+
+</body>
+
+</html>

@@ -2,9 +2,9 @@
 
 ## History
 
-What we now know as JavaScript was developed in 1995 by Netscape, a forerunner of the FireFox browser 
+What we now know as JavaScript was developed in 1995 by Netscape, a forerunner of the FireFox browser.
 
-![Netscape Logo](images/240px-Netscape_icon.svg.png)
+![Netscape Logo](images/Netscape_icon_2007.svg.png)
 
 ## JavaScript is in the browser
 
@@ -43,7 +43,7 @@ DOM stands for "Document Object Model."
 
 The above html would generate the following DOM.  The browser reads the code and organizes it into a tree-like structure as shown below.
 
-![The DOM](images/500px-DOM-model.svg.png)
+![The DOM](images/500px-dom-model-svg.png)
 
 ## Javascript is about manipulating the DOM
 

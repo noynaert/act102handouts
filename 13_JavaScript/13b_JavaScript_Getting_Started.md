@@ -29,7 +29,7 @@ Placing JavaScript on your page can be tricky.
 1. document.write("Hi, there");
 2. console.log("Only the programmer is likely to see this");
 3. alert("Did this message annoy you?")
-4. Replacing items on the page.  This is the most common.
+4. Replacing items on the page.  This is the most common.  Remember "Manipulating the DOM"  This is what we will do most of the time.
 
 ## Strings
 
