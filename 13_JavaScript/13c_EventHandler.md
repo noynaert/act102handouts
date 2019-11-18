@@ -17,6 +17,16 @@ Objects are something we use in Javascript.  Objects are hard to define, but rou
 
 JavaScript treats each HTML element as an object.
 
+#### Objects may contain other objects
+
+For HTML objects, the attributes are also objects.  We can specify the sub-objects with a period.
+
+```javascript
+console.log(paragraph.style);
+console.log(paragraph.style.color);
+paragraph.style.color = "green";
+```
+
 ## Event Handlers
 
 There are hundreds of events that can happen on a web page.
