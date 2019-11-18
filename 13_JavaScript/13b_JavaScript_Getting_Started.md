@@ -36,3 +36,10 @@ Placing JavaScript on your page can be tricky.
 Strings may either be enclosed with 'single quotes' or "double quotes."
 
 There is no difference between single quotes.  If your string contains an apostrophe, then use double quotes.  If your string includes quote marks, then use single quotes.  If it uses both an apostrophy and double quotes, then you probably need to use the html entities ```&apos;``` or ```&quot;```.
+
+Strings may be concatinated with the &plus; symbol
+
+```
+console.log("How now " + "brown cow.")
+)
+```
