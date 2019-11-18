@@ -5,18 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Event Handlers</title>
+  <style>
+     img {border: 5px groove blue;}
+     #boring  {color:orange;}
+  </style>
 </head>
 <body>
-  <h1>Demo of Event Handlers</h1>
+  <h1 onmouseover="console.log('Entering h1')" onmouseout="console.log('Leaving h1')">Demo of Event Handlers</h1>
 
-  <p>This is a lame paragraph</p>
+  <p id="boring">This is a boring paragraph</p>
 
   <p>
-    <img src="images/puppy.jpg" alt="Puppy">
+    <img src="images/puppy.jpg" alt="Puppy" id="pet"
+    >
   </p>
 
+  <p><input type="text" onchange="console.log('My value is ' + this.value)"></p>
+
   <p>
-    <button>Click Me!</button>
+    <button onclick="this.innerHTML=new Date()">Click Me!</button>
   </p>
 
 </body>
