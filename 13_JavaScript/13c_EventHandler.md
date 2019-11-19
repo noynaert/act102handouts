@@ -51,12 +51,3 @@ The event handlers are attributes in HTML.  The values are a JavaScript function
 <p onmouseover="console.log('In paragraph')" onmouseOut="console.log('Leaving Paragraph')">This is a paragraph</p>
 <p><input type="text" onchange="console.log('My value is '+ this.value)"></p>
 ```
-
-## The importance of ***this***
-
-In object oriented programming "this" refers to the current argument.  It can be passed as an argument to a function.  In this case we are going to use + with a string to concatenate them.
-
-```html
-<h1 onmouseover="console.log('I am in ' + this)">Hello</h1>
-<p onmouseover="console.log('In paragraph')" onmouseOut="console.log('Leaving Paragraph')">This is a paragraph</p>
-```

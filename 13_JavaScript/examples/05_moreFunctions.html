@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Event Handlers</title>
+  <style>
+    img {
+      border: 5px groove blue;
+    }
+
+    #boring {
+      color: orange;
+    }
+  </style>
+  <script>
+    function mouseOver(current) {
+      current.style.color = "blue";
+      current.style.backgroundColor = "lightblue";
+    }
+    function mouseOut(it) {
+      it.style.backgroundColor = "white";
+      it.style.color = "black";
+    }
+    function getKitten(picture) {
+      picture.src = "images/kitten.jpg";
+      picture.alt = "A Kitten";
+      picture.style.border = "5px dotted red";
+    }
+    function getPuppy(picture) {
+      picture.src = "images/puppy.jpg";
+      picture.alt = "A Puppy";
+      picture.style.border = "5px solid blue";
+    }
+  </script>
+</head>
+
+<body>
+  <h1 onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Demo of Event Handlers</h1>
+
+  <p id="boring" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">This is a boring paragraph</p>
+
+  <p>
+    <img src="images/puppy.jpg" alt="Puppy" id="pet" onmouseover="getKitten(this)" onmouseout="getPuppy(this)">
+  </p>
+
+  <p><input type="text"></p>
+
+  <p>
+    <button>Click Me!</button>
+  </p>
+  <p><button>Puppy</button> <button>Kitten</button></p>
+
+</body>
+
+</html>
