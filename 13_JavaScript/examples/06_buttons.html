@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Two Buttons</title>
+  <style>
+    #showPuppy {
+      visibility: hidden;
+    }
+  </style>
+  <script>
+    function showKitten(me) {
+
+      var image;
+      var kittenButton;
+
+      image = document.getElementById("pet");
+      image.src = "images/kitten.jpg";
+      image.alt = "A Kitten";
+
+      kittenButton = document.getElementById("showPuppy");
+      kittenButton.style.visibility = "visible";
+      me.style.visibility = "hidden";
+
+      //Transform without a variable example:
+      document.getElementById("heading").innerHTML = "A Young Cat";
+
+    }
+    function showPuppy(me) {
+
+      var image;
+      var kittenButton;
+
+      image = document.getElementById("pet");
+      image.src = "images/puppy.jpg";
+      image.alt = "A Puppy";
+
+      kittenButton = document.getElementById("showKitten");
+      kittenButton.style.visibility = "visible";
+      me.style.visibility = "hidden";
+
+      //Transform without a variable example:
+      document.getElementById("heading").innerHTML = "A Young Dog";
+
+    }
+  </script>
+</head>
+
+<body>
+  <h1 id="heading">A Young Dog</h1>
+  <p><img id="pet" src="images/puppy.jpg" alt="A Puppy"></p>
+  <p><button id="showKitten" onclick="showKitten(this)">Show Kitten</button>&nbsp;&nbsp;
+    <button id="showPuppy" onclick="showPuppy(this)">Show Puppy</button>
+  </p>
+</body>
+
+</html>
