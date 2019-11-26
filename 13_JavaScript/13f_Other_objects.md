@@ -28,4 +28,35 @@ If you are comfortable working with arrays, check out [https://www.w3schools.com
 
 ### Example
 
+The full example is a bit long, so if you want to see or get the code look in the repo at [https://raw.githubusercontent.com/noynaert/ACT102_Notes/master/13_JavaScript/examples/06_buttons.html](https://raw.githubusercontent.com/noynaert/ACT102_Notes/master/13_JavaScript/examples/06_buttons.html) and pick the "Raw" view.
 
+```javascript
+  function getKitten(){
+    var image;
+    image = document.getElementById("pet");
+    image.src = "images/kitten.jpg";
+    image.alt = "A Kitten";
+  }
+  ...
+  <img src="images/puppy.jpg" alt="A Puppy" id="pet">
+  <button onclick="getKitten">Show Kitten</button>
+  }
+```
+## Arithmetic Operators
+
+|Operator|Description|
+:-:|---
+|+|Addition|
+|-|Subtraction|
+|*|Multiplication|
+|/|Division|
+
+```javascript
+console.log(6+4) //prints 10
+console.log(6-4) //prints 2
+console.log(6*4) //prints 24
+console.log(6/4) //prints 1.5
+```
+
+
+For people who know other programming languages, a full set of arithmetic operators is available at [https://www.w3schools.com/js/js_arithmetic.asp](https://www.w3schools.com/js/js_arithmetic.asp)  These extra operators will not be on the final.
