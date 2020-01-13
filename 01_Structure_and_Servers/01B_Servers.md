@@ -55,7 +55,7 @@ We actually have a lot of servers on our campus.
 
 ## The P: drive
 
-The P: drive is a drive on campus computers.  The P: drive is only available on campus.  There are ways to get to it from off campus, but they are harder than on campus.  This is why I suggest doing the first couple of assignments from on campus.  I will show you how to get to it in a couple of weeks when you will not be so overwhelmed by other things in the class.  Also, I hope you will have developed a higher threashold for frustration by that point. :smirk:
+The P: drive is a drive on campus computers.  The P: drive is only available on campus.  There are ways to get to it from off campus, but they are harder than on campus.  This is why I suggest doing the first couple of assignments from on campus.  I will show you how to get to it in a couple of weeks when you will not be so overwhelmed by other things in the class.  Also, I hope you will have developed a higher threshold for frustration by that point. :smirk:
 
 Your P: drive should have a directory called P:\public_html.
 

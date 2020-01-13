@@ -3,7 +3,6 @@
 This unit corresponds roughly to the following references:
 
 * Duckett textbook: Chapter 1
-* ebook: The first half of chapter 1
 * W3 Schools
   * https://www.w3schools.com/html/default.asp
   * https://www.w3schools.com/html/html_intro.asp
@@ -36,11 +35,21 @@ And the Second Commandment is like unto the first: *Thou shalt not put special c
   * Windows, Linux, and Mac all use folders to keep things organized
 * We will work with folders a lot this semester.  Visual Studio Code works best when it is working with files inside folders.
 
+#### The "Landing Page"
+
+When we view a folder in a browser we can see all of the files.  For example, go to [https://webservices.missouriwestern.edu/users/noynaert/act102/](https://webservices.missouriwestern.edu/users/noynaert/act102/)   You should be able to see the files and folders.
+
+Now go to [https://webservices.missouriwestern.edu/users/noynaert/act102/zzzIgnoreThis/](https://webservices.missouriwestern.edu/users/noynaert/act102/zzzIgnoreThis/)
+
+You cannot see the contents of the zzzIgnoreThis folder because it has a special file named index.html.  index.html is a "landing page."  When you go to a directory or folder with an index.html file the browser shows you the contents of the index.html file instead of the directory contents.  Some systems use names like index.php or default.html.  However, all of these alternate names would be landing pages if they are set up to show by default.
+
 ### Editors
 
 We need an editor that is good at processing simple text files
 
 Recommended Editor is [Visual Studio Code](https://code.visualstudio.com/).  It is a free program from Microsoft.  It runs on Windows, Linux, and Mac.
+
+#### The third great commandment of this course:  In VS Code, open folders, not files
 
 Notepad++ is an older editor that will also work for this course, but it lacks a lot of features.
 
@@ -73,7 +82,7 @@ Common Browsers:
 <html>
   <head lang="en-us">
     <meta charset="UTF-8">↩
-    <title>Basic Skeleton for html5</title> 
+    <title>Basic Skeleton for html5</title>
   </head>
 <body>
 
