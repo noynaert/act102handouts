@@ -6,44 +6,7 @@
 * Textbook, Chapter 4
 * [Web Developer's Reference Guide (ebook), Chapter 1](http://ezproxy.missouriwestern.edu:2048/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=1213515&site=ehost-live&scope=site) for students who want to dig a little deeper
 
-## Sections
-
-The &lt;section&gt; tag helps organize the structure of a document by grouping items that are part of the same topic.  It is a paired tag.
-
-### The id= attribute
-
-The id= attribute gives a unique name to a section of the html document.  The name should appear in "double quotes."  The name should be short, simple, and meaningful to a human reader.  ***Each name must be unique within a single html document.***
-
-The section tag should normally have an id= attribute.  The section tag should halso be followed immediately by a header of any level from &lt;h1&gt; through &lt;h6&gt;
-
-And example of a section follows:
-
-```html
- <section id="geography">
-    <h2>Geography</h2>
-    <p>Saint Joseph is located in Burchanan and Andrew Counties of Missouri.  It is the county seat of Buchanan County.</p>
-</section>
-```
-
-## Footers
-
-The &lt;footer>&lt;/footer> tag goes at the bottom of your document. Your document may have several footer tags, but they should be the last item in your document right above the &lt;/body> tag.
-
-The footer tag is used for things like listing contact information or sources.
-
-## Validation
-
-***Validate early and often!*** It is easier to validate when you have a little bit of source code.
-
-We will use the validator at https://html5.validator.nu/
-
-There are three ways to validate your web page
-
-1. By URL -- This is the easiest.  The url you copy paste must start with http:// or https://
-2. By file upload.  Use this if you have not got the current copy of your document on the Internet yet.  The url probably starts with File:///
-3. By text.  This also works in the situation where you are working from your PC.  "Ctrl-A" as a keyboard shortcut is your friend if you are using this.
-
-## Lists
+# Lists
 
 Web pages often have a lot of lists.  So this information is important!
 
@@ -51,7 +14,7 @@ Web pages often have a lot of lists.  So this information is important!
 * Lists have to appear outside of paragraphs or headings.  Lists cannot contain paragraphs or headings.
 * Any amount of text may appear within the &lt;li&gt; tag.
 
-### Unordered Lists
+## Unordered Lists
 
 Here is a list of Missouri Cities as an example.
 
@@ -67,7 +30,7 @@ Here is a list of Missouri Cities as an example.
 
 The HTML tutorial at https://www.w3schools.com/html/html_lists.asp has styling guidelines.  However, I would prefer to do these in CSS rather than incorporate the styling directly to the HTML
 
-### Ordered Lists
+## Ordered Lists
 
 Ordered lists are very similar to unordered lists.  Ordered lists are appropriate for situations when there is a natural ordering.
 
@@ -83,7 +46,7 @@ Here is a list of the best movies of all times according to https://www.ranker.c
 
 The HTML tutorial explains the use of the type attribute.  However, this style of doing types is obsolete.  Do not use it at this time.  Once we get to CSS we will learn to do the styling in a better way.
 
-### Definition Lists
+## Definition Lists
 
 Definition Lists are used for special purposes, specifically definitions.  However, they can sometimes be useful for other things.
 
@@ -93,13 +56,13 @@ There are three tags used.
 * &lt;dt&gt; defines the term
 * &lt;dd&gt; is for the definition
 
-### Nesting Lists
+## Nesting Lists
 
 Sometimes it is necessary to put a list inside a list.
 
 This is the wrong way to do a nested list.  
 
-#### The wrong way to do a nested list
+### The wrong way to do a nested list
 
 ```html
 <ul>
@@ -113,7 +76,7 @@ This is the wrong way to do a nested list.
 </ul>
 ```
 
-#### The correct way to do a nested list
+### The correct way to do a nested list
 
 The inner list is actually a part of the &lt;li&gt; above it.
 
