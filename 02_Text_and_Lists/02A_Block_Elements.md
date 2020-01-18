@@ -25,9 +25,27 @@ Block elements (and block tags) have a blank line before them and after them.
 
 ## Break
 
-Technically the ```<br>``` tag is not a block element.  It simply causes a "Break" or carriage return at the point where the ```br``` tag occurs.
+Technically the ```<br>``` tag is not a block element.  It simply causes a "Break" or carriage return at the point where the ```<br>``` tag occurs.
 
-## A note about "whitespace"
+## Notes about "whitespace"
+
+There are officially 5 whitespace characters:
+
+* ***SPACE*** (the space bar)
+* ***TAB*** (the Tab key)
+* ***CARRIAGE RETURN*** (or CR, the Enter key)
+* ***FORM FEED*** (or FF.  This is typically not important in web pages)
+* ***LINE FEED*** (or LF. This is typically not important in HTML or in Windows systems.)
+
+Whitespace is a concept that pops up in a lot of technical forums.  In the context of HTML and programming it refers to characters that do not put ink on the page.  
+
+Form Feed is important in some applications. It generally refers to sending a signal to kick out a new sheet of paper on the printer. FF typically is not important on web pages because web pages are not usually broken up into individual sheets of paper.
+
+Carriage Return and Linefeed are sort of a pair.  The concepts go back to the old days of typewriters and teletype machines.  The CR sends the "carriage" back to the left on a typewriter or teletype.  On a screen it generally means moving the cursor to the left margin.  LF on a paper system means moving down to the next line.  Windows computer systems typically combine both the CR and LF into just the CR.  However, on Macs and Linux systems they tend to be treated as two different operations.  This can cause problems when moving text file (like .html files) between systems.  
+
+### Whitespace in HTML
+
+In html, whitespace characters are "collapsed."  If an html file has more than one whitespace character together the browser will change them into a single space.  The browser then handles word wrap automatically.
 
 ## Preformatted
 
