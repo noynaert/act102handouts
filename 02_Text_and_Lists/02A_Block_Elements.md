@@ -2,6 +2,8 @@
 
 ## References
 
+The material in this unit covers roughly chapter 2 of the Duckett textbook.
+
 * Block Elements: [https://www.w3schools.com/html/html_blocks.asp](https://www.w3schools.com/html/html_blocks.asp)
 * Headings: [https://www.w3schools.com/html/html_headings.asp](https://www.w3schools.com/html/html_headings.asp)
 * Paragraphs: [https://www.w3schools.com/html/html_paragraphs.asp](https://www.w3schools.com/html/html_paragraphs.asp)
@@ -19,13 +21,34 @@ Block elements (and block tags) have a blank line before them and after them.
 
 ## Headings
 
+* Headings run from ```<h1>``` through ```<h6>```
+* ```<h1>```
+  * ```<h1>``` is the largest heading
+  * ```<h1>``` text is often the same as the text in the ```<title>```
+  * ```<h1>``` is the first item on many web pages
+  * Some style guides only recommend one ```<h1>``` per page.
+* ```<h2>``` through ```<h6>``` should be used like an outline.  Don't jump around randomly.
+
+Remember that html describes the structure of the document.  Don't pick heading levels based on how they look.  If you want a different size or look, then use style sheets (to be covered soonish).
+
 ## Paragraphs
 
+* The ```<p>``` tag is a block tag that is used to define paragraphs.  Like other block tags the paragraph tag puts a blank line before and after the paragraph.
+* The browser handles word wrap.  Do not try to control it.
+* The browser also tries to "collapse white space."
+* Do not try to indent the first line of the paragraph.
+
 ## Horizontal Rule
+
+The ```<hr>``` tag is a self-closing block tag.  It just draws a solid line across the page or its container.
+
+---
 
 ## Break
 
 Technically the ```<br>``` tag is not a block element.  It simply causes a "Break" or carriage return at the point where the ```<br>``` tag occurs.
+
+Break is sometimes used when displaying data.  But use it sparingly.
 
 ## Notes about "whitespace"
 
@@ -48,6 +71,23 @@ Carriage Return and Linefeed are sort of a pair.  The concepts go back to the ol
 In html, whitespace characters are "collapsed."  If an html file has more than one whitespace character together the browser will change them into a single space.  The browser then handles word wrap automatically.
 
 ## Preformatted
+
+The ```<pre>``` tag is a block element tag.  It does two things:
+
+1. It changes to a fixed or monospaced font
+2. It preserves whitespace.
+
+The ```<pre>``` tag has a lot of uses:
+
+* Displaying data in the form of tables
+* Displaying things like poems
+* Displaying "ASCII Art" if you are a real geek.
+
+```text
+     /\_/\
+    ( o.o )
+     > ^ <
+```
 
 ## Sections
 
