@@ -10,9 +10,9 @@ The material in this unit covers roughly chapter 2 of the Duckett textbook.
 * Horizontal Rule (a horizontal line): [https://www.w3schools.com/tags/tag_hr.asp](https://www.w3schools.com/tags/tag_hr.asp)
 * Break: [https://www.w3schools.com/tags/tag_hr.asp](https://www.w3schools.com/tags/tag_hr.asp)
 * Preformatted: [https://wwwhttps://www.w3schools.com/tags/tag_pre.asp.w3schools.com/tags/tag_pre.asp](https://wwwhttps://www.w3schools.com/tags/tag_pre.asp.w3schools.com/tags/tag_pre.asp)
-* Section:
-* Id:
-* Footer:
+* Section: [https://www.w3schools.com/tags/tag_section.asp](https://www.w3schools.com/tags/tag_section.asp)
+* Id: [https://www.w3schools.com/tags/att_id.asp](https://www.w3schools.com/tags/att_id.asp)
+* Footer: [https://www.w3schools.com/tags/tag_footer.asp](https://www.w3schools.com/tags/tag_footer.asp)
 * Validation: [https://html5.validator.nu/](https://html5.validator.nu/)
 
 So far we have talked about "tags."  Tags are surrounded by &lt; and &gt; symbols.  Tags are one type of "element."  The name inside the &lt; and &gt; symbols is the element.  For example, ```<body>``` is a tag, but ```body``` is the element.
@@ -120,7 +120,7 @@ The footer tag is used for things like listing contact information or sources.
 
 ***Validate early and often!*** It is easier to validate when you have a little bit of source code.
 
-We will use the validator at https://html5.validator.nu/
+We will use the validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/)
 
 There are three ways to validate your web page
 
