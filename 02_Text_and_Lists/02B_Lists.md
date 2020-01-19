@@ -4,9 +4,6 @@
 
 * [W3 Schools HTML Tutorial](https://www.w3schools.com/html/html_lists.asp)
 * Textbook, Chapter 4
-* [Web Developer's Reference Guide (ebook), Chapter 1](http://ezproxy.missouriwestern.edu:2048/login?url=http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=1213515&site=ehost-live&scope=site) for students who want to dig a little deeper
-
-# Lists
 
 Web pages often have a lot of lists.  So this information is important!
 
