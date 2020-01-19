@@ -15,7 +15,9 @@ The material in this unit covers roughly chapter 2 of the Duckett textbook.
 * Footer:
 * Validation: [https://html5.validator.nu/](https://html5.validator.nu/)
 
-"Elements" means about the same things as "tags."  Technically, tags have &lt; and &gt; symbols around them.  Elements are just the name.  For example, ```<body>``` is a tag, but ```body``` is the element.
+So far we have talked about "tags."  Tags are surrounded by &lt; and &gt; symbols.  Tags are one type of "element."  The name inside the &lt; and &gt; symbols is the element.  For example, ```<body>``` is a tag, but ```body``` is the element.
+
+There are other types of elements, but for right now we can treat elements and tags as the same thing.
 
 Block elements (and block tags) have a blank line before them and after them.
 
