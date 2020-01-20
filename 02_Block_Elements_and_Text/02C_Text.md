@@ -77,6 +77,10 @@ Hex is often used as a shorthand for writing binary. Hex is easier for humans to
   * [Unicode](http://www.unicode.org/charts/) supports most alphabets of the world as well as special symbols.
   * ASCII lives on as the first code table in Unicode, so ASCII is a subset of Unicode.
 
+## UTF-8
+
+UTF-8 works with Unicode and ASCII.  It is an "encoding system" that solves a technical problem.  We will not go into it in depth, but if you are interested in diving deeper, go to [https://www.youtube.com/watch?v=MijmeoH9LT4](https://www.youtube.com/watch?v=MijmeoH9LT4) for a short and interesting explanation.
+
 ## Back at the HTML
 
 Content in this section is also covered in the following references:
