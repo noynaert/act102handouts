@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  input {
+    width: 7em;
+  }
+</style>
+<script>
+  function add() {
+    var num1;
+    var num2;
+    var sum;
+    num1 = document.getElementById("num1").value * 1;
+    num2 = document.getElementById("num2").value * 1;
+    console.log(num1);
+    sum = num1 + num2
+    document.getElementById("answer").innerHTML = sum;
+  }
+</script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Addition</h1>
+  <p>
+    <input type="number" id="num1" value="0" onchange="add()" onkeyup="add()"> +
+    <input type="number" id="num2" value="0" onchange="add()" onkeyup="add()">
+    = <span id="answer"></span>
+  </p>
+  <p><button onclick="add()">Do Addition!</button></p>
+
+</body>
+
+</html>
