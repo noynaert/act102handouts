@@ -1,5 +1,11 @@
 # Text in HTML
 
+## Using light switches for messages
+
+![Single Switch](images/single.png)  -- 2 messages
+![Double Switch](images/double.png) -- 4 messages
+![Triple Switch](images/triple.png) -- 8 messages
+
 ## Of Bits and Bytes
 
 * A bit stores a one or a zero
@@ -23,7 +29,7 @@ The formula for the number of combinations is 2ⁿ where n is the number of bits
 * Binary -- Base 2  This is the base used inside the computer
 * Hexadecimal or "Hex" -- Base 16
 
-Hex is often used as a shorthand for writing binary.
+Hex is often used as a shorthand for writing binary. Hex is easier for humans to deal with than straight binary.
 
 ## Character Sets
 
