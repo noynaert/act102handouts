@@ -118,6 +118,8 @@ The footer tag is used for things like listing contact information or sources.
 
 ## Validation
 
+Validation makes sure the html file follows the rules of html.
+
 ***Validate early and often!*** It is easier to validate when you have a little bit of source code.
 
 We will use the validator at [https://validator.w3.org/nu/](https://validator.w3.org/nu/)
