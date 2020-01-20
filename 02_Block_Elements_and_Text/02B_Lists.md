@@ -86,8 +86,30 @@ The inner list is actually a part of the &lt;li&gt; above it.
 
 Definition Lists are used for special purposes, specifically definitions.  However, they can sometimes be useful for other things.
 
+Definition Lists are sometimes called "Description Lists."  This reflects the idea that &lt;dl&gt; lists often include more than just definitions.
+
 There are three tags used.
 
 * &lt;dl&gt; are the first and last tags that surround the list.
 * &lt;dt&gt; defines the term
 * &lt;dd&gt; is for the definition
+
+### Example of a Definition List
+
+From Greek mythology:
+
+```html
+<dl>
+    <dt>Argus</dt><dd>A hundred-eyed giant.</dd>
+    <dt>Centaur</dt><dd>A creature with the head and torso of a human and the body of a horse</dd>
+    <dt>Griffon or Gryphon</dt><dd>A creature with the head of a lion and the body and wings of an eagle.  They were guardians of gold, and were generally rather disagreeable creatures.</dd>
+  </dl>
+```
+
+It would look like this:
+
+<dl>
+    <dt>Argus</dt><dd>A hundred-eyed giant.</dd>
+    <dt>Centaur</dt><dd>A creature with the head and torso of a human and the body of a horse</dd>
+    <dt>Griffon or Gryphon</dt><dd>A creature with the head of a lion and the body and wings of an eagle.  They were guardians of gold, and were generally rather disagreeable creatures.</dd>
+  </dl>
