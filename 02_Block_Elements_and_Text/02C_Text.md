@@ -2,9 +2,41 @@
 
 ## Using light switches for messages
 
-![Single Switch](images/single.png)  -- 2 messages
-![Double Switch](images/double.png) -- 4 messages
-![Triple Switch](images/triple.png) -- 8 messages
+![Single Switch](images/single.png)  
+2 messages
+
+```text
+  0ff -- Gone for the day
+  On  -- Returning before the end of the day
+```
+
+---
+
+![Double Switch](images/double.png) 
+4 messages
+
+```text
+* Off Off -- Gone for the day
+* 0ff On  -- Away for more than an hour
+* On  Off -- Away for less than an hour
+* On  Onn -- Be right back
+```
+
+---
+
+![Triple Switch](images/triple.png)  
+8 messages
+
+```text
+000 Black
+001 Blue
+010 Green
+011 Yellow
+100 Red
+101 Purple
+110 Orange
+111 White
+```
 
 ## Of Bits and Bytes
 
