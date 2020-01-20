@@ -62,10 +62,14 @@ All text must be in a paragraph or some other type of container.
 
 The following are discussed in the [html tutorial](https://www.w3schools.com/html/html_formatting.asp)  There is also material on them in the Duckett text.
 
+### Inline elements
+
+The following are all "inline" elements.  Inline elements go inside block elements.
+
 * &lt;b&gt; - Bold text
-* &lt;strong&gt; - Important text
+* &lt;strong&gt; - Important text (Usually the same thing as bold)
 * &lt;i&gt; - Italic text
-* &lt;em&gt; - Emphasized text
+* &lt;em&gt; - Emphasized text (Usually the same thing as italic)
 * &lt;mark&gt; - Marked text
 * &lt;small&gt; - Small text
 * &lt;del&gt; - Deleted text
