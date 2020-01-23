@@ -2,8 +2,9 @@
 
 The exam will be on the following dates:
 
-* Wednesday, Septemner 18 (Evening Section)
-* Thursday September 19 (Day Section)
+* Friday, January 31, 2020
+
+The exam will cover Units 01, 02, and 03.  We have not yet covered https://github.com/noynaert/ACT102_Notes/blob/master/01_Structure_and_Servers/01B_Servers.md, but we will do so in class on Monday, January 27, 2021.
 
 **Everyone must physically come to class on the exam day; no one may take the exam remotely.**
 
