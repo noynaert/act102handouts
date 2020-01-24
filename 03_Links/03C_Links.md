@@ -1,8 +1,26 @@
 # Links
 
+
+
 I recommend the textbook on this unit.  It covers all of the important cases.
 
-There is only one tag in this unit, the &lt;a&gt; tag.  It has one attribute, href.  However, there are several subtle aspects of using the tag.
+There are only two new tags in this unit.
+
+## &lt;div>
+
+The ```<div>``` tag is a block element.
+
+The ```<div>``` tag is for "division."  It is similar to the ```<section>``` tag.  Section was added in html5.  Before html5 we only used div elements.
+
+The div element may be used to mark part of a document with an id.  The main difference is that the ```<div>``` tag does not need a heading element right after it.  That makes the div element more or less invisible.
+
+Normally the div element will have either an id or a class attribute with it.  Sometimes it has both an id and a class.
+
+```html
+<div id=sports>
+    <p>You can watch sports on ESPN.</p>
+</div>
+```
 
 ## The basic &lt;a&gt; tag
 

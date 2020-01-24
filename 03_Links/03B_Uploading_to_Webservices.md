@@ -25,6 +25,7 @@ To set up a connection:
    * Set login Type to "Ask for password"
    * Put in your user name
    * I changed the background color to yellow, just to make it easier to see which was the remote site.  
+   ![Set up New Site](images/webservices.png)
 4. Click OK.
 5. Optional: Open site manager again and select "New site." Then click on "Rename""  Change it to "Webservices"
 
@@ -62,6 +63,6 @@ Edit the JSON file.  Mine looks like this:
 }
 ```
 
-After this is set up, do either F1 or Ctrl-Shift-P to open the menu.  Select "
+After this is set up, do either F1 or Ctrl-Shift-P to open the menu.  Select "SFTP: Sync remote -> Local
 
 Note that this file ***must*** go in the root of the ACT102 folder on your local system.
