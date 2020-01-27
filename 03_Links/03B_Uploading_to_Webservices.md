@@ -47,7 +47,7 @@ Open the "Extensions" flyout on the left side of VS Code.  Search for SFTP.
 
 I have been using SFTP/FTP sync by liximomo.
 
-After you have downloaded it, move to your ***local*** act102 folder.  Then do either F1 or Ctrl-Shift-P.  Search for SFTP: Config
+After you have downloaded it, move to your ***local*** act102 folder.  Then do either F1 or Ctrl+Shift+P.  Search for SFTP: Config
 
 Edit the JSON file.  Mine looks like this: 
 
@@ -63,6 +63,6 @@ Edit the JSON file.  Mine looks like this:
 }
 ```
 
-After this is set up, do either F1 or Ctrl-Shift-P to open the menu.  Select "SFTP: Sync remote -> Local
+After this is set up, do either F1 or Ctrl+Shift-P to open the menu.  Select "SFTP: Sync remote -> Local
 
 Note that this file ***must*** go in the root of the ACT102 folder on your local system.

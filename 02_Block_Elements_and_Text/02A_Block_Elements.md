@@ -128,4 +128,4 @@ There are three ways to validate your web page
 
 1. By URL -- This is the easiest.  The url you copy paste must start with http:// or https://
 2. By file upload.  Use this if you have not got the current copy of your document on the Internet yet.  The url probably starts with File:///
-3. By text.  This also works in the situation where you are working from your PC.  "Ctrl-A" as a keyboard shortcut is your friend if you are using this.
+3. By text.  This also works in the situation where you are working from your PC.  "Ctrl+A" as a keyboard shortcut is your friend if you are using this.
