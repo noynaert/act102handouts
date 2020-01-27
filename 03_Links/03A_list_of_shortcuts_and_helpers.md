@@ -11,7 +11,9 @@ These shortcuts should work in Windows 10 and most Linux distributions.  Some wi
 * Ctrl-x : Cuts text and puts it on the clipboard
 * Ctrl-z : Undo (may be repeated)
 * Alt-tab: Switch between applications
-
+* Ctrl-f: Opens a "find" or "search" box in browsers, VS Code and many other applications
+  * The search box is usually at the top.
+  * In Firefox the search box is at the bottom left of the window.
 ## Tiling the screen
 
 It is often handy to have your text editor on the left half of your screen and a browser on the right.  These shortcuts should do it for you.  The "Super" key is the Windows key between the Ctrl and Alt keys on most keyboards.  (If you tile VS Code be sure to close the File flyout to give yourself more room.)
