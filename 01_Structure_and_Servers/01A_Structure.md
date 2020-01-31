@@ -79,8 +79,8 @@ Common Browsers:
 
 ```html
 <!DOCTYPE html>
-<html>
-  <head lang="en-us">
+<html lang="en-us">
+  <head>
     <meta charset="UTF-8">↩
     <title>Basic Skeleton for html5</title>
   </head>
