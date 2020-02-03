@@ -8,6 +8,12 @@ The exam will cover Units 01, 02, and 03.  We have not yet covered https://githu
 
 The notes for 03B_Uploading will not be on the exam.  However, the ability to upload files is something you will need to be able to do for this course.
 
+## Old Exam
+
+I have put a copy of an old exam in Canvas.  Note that it was a different semester and the material covered in class might have been different in some areas.  Please don't freak out if there is a question on the old exam that we have not covered in class or in the notes on github.  If something is not in the github notes for units 1, 2, or 3 then it should not be on the exam you will take.  Use the old exam as a study aid only.
+
+## About the actual exam
+
 **Everyone must physically come to class on the exam day; no one may take the exam remotely.**
 ADA requirements will be respected.
 
