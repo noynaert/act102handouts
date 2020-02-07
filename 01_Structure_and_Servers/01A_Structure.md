@@ -121,7 +121,7 @@ The &lt;body&gt; through the &lt;/body&gt; part of the document shows up in the 
 
 ## Attributes
 
-Sometimes tags have additional information added to them.  The &lt;head lang="en-us"&gt; tag has some extra information tacked on.  The part that says lang="en-us" is called an ***attribute***.  In this case the attribute tells the browser that this page is written in English, and specifically US English.  The browser can use this information to determine which alphabet to use.  If the language had specified Russian, the browser would use a Cyrillic script.
+Sometimes tags have additional information added to them.  The &lt;html lang="en-us"&gt; tag has some extra information tacked on.  The part that says lang="en-us" is called an ***attribute***.  In this case the attribute tells the browser that this page is written in English, and specifically US English.  The browser can use this information to determine which alphabet to use.  If the language had specified Russian, the browser would use a Cyrillic script.
 
 ### Attribute format
 
