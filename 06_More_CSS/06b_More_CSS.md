@@ -75,7 +75,7 @@ Here is the amended style.css for highlighting.
         }
 ```
 
-Clear undoes the effects of float.  For the exam, just know that clear is almost the opposite of float.
+Clear undoes the effects of float.  It is possible to do ```clear:left``` or ```clear:right``` but in most cases we do ```clear:both```.
 
 ---
 
