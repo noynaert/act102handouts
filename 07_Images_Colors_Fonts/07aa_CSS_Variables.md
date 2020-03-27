@@ -1,8 +1,11 @@
 ## 07aa CSS Variables
 
-This material will not be on this exam.  I am putting this here as a reference for Fall, 2019 students.  It will not be on the Fall 2019 exam 2.
+CSS variables make it easier to maintain consistency across a website.
 
-It is also here to remind me to add it to tested content beginning Spring, 2020 course
+CSS variables may be declared with any CSS selector.  However, often we want the variable to apply
+to all scopes.  Therefore the scope is often defined as ```:root``` so that it has global scope.
+
+## Declaring Variables
 
 ```css
    :root {--primaryColor: blue;
@@ -12,9 +15,18 @@ It is also here to remind me to add it to tested content beginning Spring, 2020 
           --defaultImgHeight: 250px;
    }
 
+## Using Variables
+
    .productSidebar {color: var(--primaryColor);
                     background-color: var(--accentColor);
                     border: var(--borderFormat);
    }
-
 ```
+
+## Variables and the Cascade
+
+The CSS Cascade rules still apply to variables.
+
+Often a file containing variables needs to be applied across other stylesheets.  Therefore a file containing the variable declarations often is placed first.
+
+In the case of Homework 7, we put the variable file last because we wanted to overrule any styling that was in the layout or footer.  In a larger application we probably would have split the color harmony file into two parts.  The first part would have defined the variables, and it would have been placed first.  A second file that used the variables would have been placed last.
