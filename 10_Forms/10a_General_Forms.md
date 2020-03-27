@@ -32,7 +32,7 @@ There are several controls that may go in a form.  HTML5 introduced quite a few 
 
 Controls go inside a &lt;form> tag, although many of the controls can appear outside a form tag for special purposes.
 
-Most controls do not have any explanatory text.  Therefore they usually go in a &lt;p> tag with the text
+Most controls do not have any explanatory text.  Therefore they usually go in a &lt;label> tag with the text.  We may use &lt;p>, &lt;br> tags, or tables to organize the table visually.
 
 ### &lt;input type="text" name="age">
 

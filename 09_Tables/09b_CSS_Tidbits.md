@@ -89,7 +89,7 @@ Moving the panel elsewhere
 * In the Developer Mode panel itself there are three dots.  Click them.
 * There should be a "Dock Side" panel that allows you to move the panel to the side, bottom, or float it.
 
-Firefox has something similar.
+Firefox has something similar.  It is accessed in about the same way.  Originally there was a Firefox extension called "Firebug."  Chrome copied its functionality and improved it a bit.  Then Firefox built it into Firefox itself.  I think at this point the Firefox version is better than Chrome, even though at first they look like direct copies.
 
 ### HTML Validator for Chrome (and Firefox)
 
@@ -98,3 +98,5 @@ The HTML Validator is an extension for Chrome that runs within developer mode.
 [HTML Validator for Chrome](https://chrome.google.com/webstore/detail/html-validator/mpbelhhnfhfjnaehkcnnaknldmnocglk?hl=en-US)
 
 I found that I had to *completely* close Chrome and then reopen it.  (Right-click on the Chrome icon in the status bar and Quit.)
+
+For Firefox, I am currently using [this validator for Firefox](https://addons.mozilla.org/en-US/firefox/addon/html-validator/?src=search), but I have not tested it as much as I would like.
