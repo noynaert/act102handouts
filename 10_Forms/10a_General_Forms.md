@@ -26,6 +26,16 @@ The form can do different things with the user interaction:
 </form>
 ```
 
+### What is happening at the "action" site?
+
+HTML resembles a programming language in many ways.  But it is not a real programming language.  It lacks the ability to do things like loops, if statements, and calculations.
+
+Pulling data out of the form requires a programming language.  Commonly used languages for "action" pages include PHP and JavaScript.  Other languages like Python and Java can also work, but PHP and JavaScript are popular because they tightly integrate with HTML.  
+
+Notice that the file extension on the "action" URL is ```.php``` and not ```.html```  
+
+Don't panic (yet).  We are not going to have to learn PHP.  This semester we will just be calling programs others (well, me) have written in PHP.  We will do some JavaScript in the next unit.  But it's fun JavaScript.  So don't panic.
+
 ### Controls
 
 There are several controls that may go in a form.  HTML5 introduced quite a few more, but most are just variations on the old types.
