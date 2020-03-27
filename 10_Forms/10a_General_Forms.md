@@ -7,7 +7,7 @@
 
 ## Uses of forms
 
-Forms allow the user to interact with a website. Users may enter data, click buttons, or use otehr controls.
+Forms allow the user to interact with a website. Users may enter data, click buttons, or use other controls.
 
 The form can do different things with the user interaction:
 
