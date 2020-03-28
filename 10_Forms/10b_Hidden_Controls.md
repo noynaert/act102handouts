@@ -1,4 +1,8 @@
-# 10b Hidden controls.
+# 10b Hidden controls
+
+## Video
+
+* [Short Video for this page](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6ff3ad85-2dd7-4f0a-8041-ab8c00150880)
 
 ## Hidden
 

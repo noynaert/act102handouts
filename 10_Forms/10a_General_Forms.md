@@ -5,6 +5,10 @@
 * [W3schools on forms](https://www.w3schools.com/html/html_forms.asp)
 * Textbook, chapter 7
 
+## Video
+
+* [Video Corresponding to this page](https://mwsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fdea3462-5df7-4eb0-8683-ab8c001508a9)
+
 ## Uses of forms
 
 Forms allow the user to interact with a website. Users may enter data, click buttons, or use other controls.
