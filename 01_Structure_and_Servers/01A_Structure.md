@@ -27,6 +27,25 @@ And the Second Commandment is like unto the first: *Thou shalt not put special c
 |index.html|start page.html|
 |quick_and_easy.html|quick&easy.html|
 
+#### Parts of a file name
+
+File names usually have two parts that are divided by a period.  The part before the period is called (confusingly), the ```file name.```  It is the part that the user is often
+allowed to select.  
+
+##### Extension
+The part after the last period is the ```extension.```  Extensions are often set by software and the user does not get to pick their meaning.  Extensions are typically 3 or 4 characters long.  If a file name has more than one period the extension is the part after the last period.  Extensions generally indicate the contents of the file.
+
+* .txt Indicates that the file contains human-readable text with no character formatting such as bold or italics.  All the text is the same size.  Very simple text editors like notepad can be used to edit a .txt file.
+* .jpg This extension indicates the file contains an image that use jpeg compression.
+* .html This extension indicates the file contains a web page.  An html is a text file.  It uses tags to indicate special formatting, but it may be edited with a simple text editor.
+* .json This extension indicates the file contains data in JavaScript's json string notation.  It is also a text file.
+
+#### Microsoft and File Names
+
+By default modern versions of Windows hide the file extensions.  Instead, Microsoft Windows uses uses different icons for different file types.  This is a problem
+for many software developers.  Fortunately, it is possible to tell Windows to override the default behavior and show the file names. It is done in the "View" option of file explorer.
+
+
 ### Folders
 
 * Folders, Directories, Subdirectories all mean the same thing.
