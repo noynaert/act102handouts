@@ -2,7 +2,6 @@
 
 This unit corresponds roughly to the following references:
 
-* Duckett textbook: Chapter 1
 * W3 Schools
   * https://www.w3schools.com/html/default.asp
   * https://www.w3schools.com/html/html_intro.asp
@@ -81,7 +80,7 @@ Common Browsers:
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">↩
+    <meta charset="UTF-8">
     <title>Basic Skeleton for html5</title>
   </head>
 <body>
