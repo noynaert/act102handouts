@@ -1,8 +1,8 @@
 # Shortcuts and Helpers
 
-## 404 -- Page not found
+## 404 -- Page not found (on purpose)
 
-For the Spring 2020 semester I decided to move this page until after the 1st exam.  For at least Spring 2020 it will be on the second exam.
+For the Fall 2020 semester I decided to move this page until after the 1st exam.  For at least Spring 2020 it will be on the second exam.
 
 [Here is some slightly more information about 404 errors](https://blog.thomasnet.com/industrial-website-404-error).
 

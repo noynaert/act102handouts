@@ -1,6 +1,5 @@
 # Links
 
-I recommend the textbook on this unit.  It covers all of the important cases.
 
 There are only two new tags in this unit.
 
