@@ -93,9 +93,9 @@ Content in this section is also covered in the following references:
   * [Text Formatting](https://www.w3schools.com/html/html_formatting.asp)
   * [Comments](https://www.w3schools.com/html/html_comments.asp)
 
-## All content must be in a tag
+## All inline content must be in a tag
 
-All text must be in a paragraph or some other type of container.
+All text must be in a paragraph, div, list, or some other type of container.
 
 ## Character formatting
 
@@ -142,4 +142,4 @@ Comments do not show up when the browser renders the web page.  They are notes t
 
 If you take a programming course like Java the instructors want you to put in a lot of comments.  However, in html we do not want a lot of comments.  Comments still have to be downloaded, and that takes bandwidth.  If you have a web page that is being served millions of times a day, then the extra comments can end up costing a lot of money and slowing delivery of your web page.
 
-One other thing.  Do not use comments to block out code that did not work properly.  I will deduct points if you have commented out code in assignments you turn in!
+One other thing.  Do not use comments to block out code that did not work properly.  I will deduct points if you have commented out code in assignments you turn in!  A much better alternative is to use git to save temporary versions of your code that you think you might want to return to later.
