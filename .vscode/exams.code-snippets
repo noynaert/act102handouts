@@ -2,14 +2,17 @@
 	"Essay_Question": {
 		"prefix": "qqq",
 		"body": [
+			"\\begin{samepage}",	
 		  "\\question $0 ",
-		  "\\vspace{15mm}"
+			"\\vspace{15mm}",
+			"\\end{samepage}"				
 		],
 		"description": "Generates a question and space for an exam"
 		},
 		"Essay_itemize": {
 			"prefix": "qqi",
 			"body": [
+				"\\begin{samepage}",
 				"\\question $0 ",
 					"\\begin{itemize}",
 						"\\item",
@@ -18,14 +21,16 @@
 						"\\vspace{5mm}",
 						"\\item",
 						"\\vspace{5mm}",
-					"\\end{itemize}"
+					"\\end{itemize}",
+					"\\end{samepage}",
 			],
-			"description": "Generates a question and bullets"
+			"description": "bullet-point question"
 		},
 
 		"Essay_enumerate": {
 			"prefix": "qq3",
 			"body": [
+				"\\begin{samepage}",
 				"\\question $0 ",
 				"\\begin{enumerate}",
 				"\\item",
@@ -34,38 +39,46 @@
 				"\\vspace{5mm}",
 				"\\item",
 				"\\vspace{5mm}",
-				"\\end{enumerate}"
+				"\\end{enumerate}",
+				"\\end{samepage}"
+								
 			],
-			"description": "Generates a question and bullets"
+			"description": "numbered answer question"
 		},
 	  "Fill_In_Question": {
 		"prefix": "qqf",
 		"body": [
-		  "\\question $1 {\\color{blue}\\fillin[][2cm]} $2"
+			"\\begin{samepage}",
+			"\\question $1 {\\color{blue}\\fillin[][2cm]} $2",
+			"\\end{samepage}",
 		],
 		"description": "Generates a question and space for an exam"
 	  },
 	  "MC_Question": {
 		"prefix": "qqm",
 		"body": [
+			"\\begin{samepage}",
 		  "\\question $1",
 			"\\begin{checkboxes}",
 				"\\choice $2",
 				"\\choice $3",
 				"\\choice $4",
 				"\\choice $5",
-			"\\end{checkboxes}"
+			"\\end{checkboxes}",
+			"\\end{samepage}",
 		],
 		"description": "Generates a multiple choice question for an exam"
 	  },
 	  "TF_Question": {
 		"prefix": "qqtf",
 		"body": [
+			"\\begin{samepage}",
 		  "\\question $1",
 			"\\begin{checkboxes}",
 				"\\choice TRUE",
 				"\\choice FALSE",
-			"\\end{checkboxes}"
+			"\\end{checkboxes}",
+			"\\begin{samepage}",
 		],
 		"description": "Generates a true/false question for an exam"
 	  }
