@@ -19,6 +19,14 @@ Normally the div element will have either an id or a class attribute with it.  S
 </div>
 ```
 
+### id rules
+
+* An id must be unique on the page
+* Do not put a blank in the id
+  * If you create an id such as id="geography and climate" you have actually created three ids named "geography" "and" and "climate"
+* Use lower case.  This is not a rule, just a style guide
+* IDs should be meaningful, but short and simple
+
 ## The basic &lt;a&gt; tag
 
 ```html
