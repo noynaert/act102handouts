@@ -3,5 +3,8 @@
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "editor.minimap.enabled": false,
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "cSpell.words": [
+        "webservices"
+    ]
 }
