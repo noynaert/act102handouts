@@ -3,10 +3,41 @@
 		"prefix": "qqq",
 		"body": [
 		  "\\question $0 ",
-		  "\\vspace{1.5cm}"
+		  "\\vspace{15mm}"
 		],
 		"description": "Generates a question and space for an exam"
-	  },
+		},
+		"Essay_itemize": {
+			"prefix": "qqi",
+			"body": [
+				"\\question $0 ",
+					"\\begin{itemize}",
+						"\\item",
+						"\\vspace{5mm}",
+						"\\item",
+						"\\vspace{5mm}",
+						"\\item",
+						"\\vspace{5mm}",
+					"\\end{itemize}"
+			],
+			"description": "Generates a question and bullets"
+		},
+
+		"Essay_enumerate": {
+			"prefix": "qq3",
+			"body": [
+				"\\question $0 ",
+				"\\begin{enumerate}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\item",
+				"\\vspace{5mm}",
+				"\\end{enumerate}"
+			],
+			"description": "Generates a question and bullets"
+		},
 	  "Fill_In_Question": {
 		"prefix": "qqf",
 		"body": [
