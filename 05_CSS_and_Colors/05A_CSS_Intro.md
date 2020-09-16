@@ -58,6 +58,12 @@ h1, h2 {background-color: yellow;
 #geography { width: 50% }
 ```
 
+### Order of Rules and Properties
+
+The order of the Rules and Properties generally does not matter.  At least in this course, the order only matters if there is a conflict between two rules or two properties. 
+
+Conflicts are resolved by the cascade.  For now the only cascade guideline that matters is that if there is a conflict, the last specification controls.
+
 ## CSS placement
 
 CSS rules may go in several places
