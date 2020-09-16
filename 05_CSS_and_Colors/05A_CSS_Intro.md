@@ -29,7 +29,7 @@ CSS consists of a series of rules that govern how different parts of a document 
 * an html element tag such as body, h1, p, a, or hr.  Any tag will work
 * an id.  You must put # in front of the id.  For example #geography
 * A list of selectors with *commas* in between.  An example would be ```h1, h2, h3```.  The style applies to all of the elements listed.
-* Two or more selectors with a *space* in between. The style applies to the second element, but only when it is within the first element.  For example, ```#cities p``` would only apply to &lt;p&gt; tags within #cities.
+* Two or more selectors with a *space* in between. The style applies to the second element, but only when it is within the first elefment.  For example, ```#cities p``` would only apply to &lt;p&gt; tags within #cities.
   
 ### Other Selectors
   
@@ -43,14 +43,11 @@ Learning how to read the list is important.
 * color:  The color to be given to the text
 * background-color: uh, the background color
 * width: The width of the item.  There are a lot of ways to measure width.  Here are a few
-* px: This stands for "pixel."  A pixel is a dot on the screen
-* em: This is approximately the size of a box drawn around a capital letter "M."  Em is a useful measurement when you want text to scale with text.
-* %:  This is the percent of the "normal" size of the element.
-* There are several others, but this will get us started.
-
+* border: The way a line around the element looks
+  
 ### Values of properties
 
-Different properties take different properties.  Right now we are using properties that only have one value.
+Different properties take different properties.  
 
 Most properties take a single property, but some take more than one property.  There are a few properties that do not take a value at all.
 
@@ -81,9 +78,8 @@ Width and height related properties can be specified in several ways.  Here are 
       * 2em
       * .5em <!-- Half an em -->
       * 1.5em <!-- One and a half ems -->
-* The width property takes a measure like 500px, 10em, or 50%.
 
-### Other Selectors
+### Other Properties
 
 * Property: There are a lot of properties. In this unit we will only cover a few. See  [https://www.w3schools.com/cssref/](https://www.w3schools.com/cssref/) for a full list.
 
