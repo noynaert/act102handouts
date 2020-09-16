@@ -22,6 +22,10 @@ It is often handy to have your text editor on the left half of your screen and a
 * Super+LeftArrow: Tiles the current app on the left half of screen
 * Super+RightArrow: Tiles the current app on the right half of the screen
 
+### The "Super Key" or "Windows Key"
+
+~[Windows Key or Super Key between the Ctrl and Alt keys on most non-Mac keyboards](images/SuperKey.png)
+
 ## Triple Click
 
 In most text applications triple-clicking the mouse will select the current paragraph
