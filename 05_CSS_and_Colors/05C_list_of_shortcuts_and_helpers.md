@@ -24,7 +24,7 @@ It is often handy to have your text editor on the left half of your screen and a
 
 ### The "Super Key" or "Windows Key"
 
-~[Windows Key or Super Key between the Ctrl and Alt keys on most non-Mac keyboards](images/SuperKey.png)
+![Windows Key or Super Key between the Ctrl and Alt keys on most non-Mac keyboards](images/SuperKey.png)
 
 ## Triple Click
 
