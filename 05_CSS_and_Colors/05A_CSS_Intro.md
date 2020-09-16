@@ -18,24 +18,74 @@ The syntax of CSS is entirely different than html.
 
 CSS consists of a series of rules that govern how different parts of a document are arranged.
 
-### Syntax of a rule
+## Syntax of a rule
 
 ![Syntax of a CSS rule](images/css.png)
 
-* Selector: The selector specifies what parts of a page the rule will apply to.  A selector can be a lot of different things, but for this unit we will limit the selector to the following:
-  * an html element tag such as body, h1, p, a, or hr.  Any tag will work
-  * an id.  You must put # in front of the id.  For example #geography
-  * A list of selectors with *commas* in between.  An example would be ```h1, h2, h3```.  The style applies to all of the elements listed.
-  * Two or more selectors with a *space* in between. The style applies to the second element, but only when it is within the first element.  For example, ```#cities p``` would only apply to &lt;p&gt; tags within #cities.
-* Property: There are a lot of properties. In this unit we will only cover a few. See [https://www.w3schools.com/cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp) for a full list.
-  * color:  The color to be given to the text
-  * background-color: uh, the background color
-  * width: The width of the item.  There are a lot of ways to measure width.  Here are a few
-    * px: This stands for "pixel."  A pixel is a dot on the screen
-    * em: This is approximately the size of a box drawn around a capital letter "M."  Em is a useful measurement when you want text to scale with text.
-    * %:  This is the percent of the "normal" size of the element.
-    * There are several others, but this will get us started.
-  * Value: This varies based on the property.  The color property takes a color like red.  The width property takes a measure like 500px, 10em, or 50%.
+## Selectors
+
+ Selector: The selector specifies what parts of a page the rule will apply to.  A selector can be a lot of different things, but for this unit we will limit the selector to the following:
+
+* an html element tag such as body, h1, p, a, or hr.  Any tag will work
+* an id.  You must put # in front of the id.  For example #geography
+* A list of selectors with *commas* in between.  An example would be ```h1, h2, h3```.  The style applies to all of the elements listed.
+* Two or more selectors with a *space* in between. The style applies to the second element, but only when it is within the first element.  For example, ```#cities p``` would only apply to &lt;p&gt; tags within #cities.
+  
+### Other Selectors
+  
+There are a lot of selectors.  See [https://www.w3schools.com/ cssref/css_selectors.asp](https://www.w3schools.com/cssref/css_selectors.asp) for the full list
+
+You will not need to know them all.  For now be aware of the list.  
+
+Learning how to read the list is important.
+
+## Properties
+* color:  The color to be given to the text
+* background-color: uh, the background color
+* width: The width of the item.  There are a lot of ways to measure width.  Here are a few
+* px: This stands for "pixel."  A pixel is a dot on the screen
+* em: This is approximately the size of a box drawn around a capital letter "M."  Em is a useful measurement when you want text to scale with text.
+* %:  This is the percent of the "normal" size of the element.
+* There are several others, but this will get us started.
+
+### Values of properties
+
+Different properties take different properties.  Right now we are using properties that only have one value.
+
+Most properties take a single property, but some take more than one property.  There are a few properties that do not take a value at all.
+
+Sometimes there are different ways to specify a value for a property.  For example, colors may be specified by name, such as "red" but we frequently use numbers such as #123456.
+
+Punctuation in the values can be picky.  Even spaces can be important.
+
+#### Specifying size
+
+Width and height related properties can be specified in several ways.  Here are some of the major methods:
+
+* Pixels: px
+  * A pixel is a dot on the screen.  Roughly.
+  * Specifying in px can tie the sizes you specify to the screen the user is using.
+  * 1px is generally used as the smallest visible size
+* Percentage: %
+  * Tied to the size of an element's *container*
+    * May be the width of the screen
+    * If an element is inside another element, it is the size of parent's container
+* Em: em
+  * An "em" is the size of a square box drawn around a capital letter "M"
+    * It is a square box that includes things like spacing and room for descenders
+    * em varies on the page by font and also the size of the font
+    * It is good when you want something to scale with the page size
+    * In practical terms, it is pretty big
+    * Examples:
+      * 1em
+      * 2em
+      * .5em <!-- Half an em -->
+      * 1.5em <!-- One and a half ems -->
+* The width property takes a measure like 500px, 10em, or 50%.
+
+### Other Selectors
+
+* Property: There are a lot of properties. In this unit we will only cover a few. See  [https://www.w3schools.com/cssref/](https://www.w3schools.com/cssref/) for a full list.
 
 #### Rule punctuation
 
@@ -56,9 +106,14 @@ h1, h2 {background-color: yellow;
        }     <!-- I didn't say it was pretty -->
 
 #geography { width: 50% }
+
+hr { color: #123abc}
+
+section {border: 1px solid black;}
+
 ```
 
-### Order of Rules and Properties
+### Order of Rules and Properties  -- The *Cascade*
 
 The order of the Rules and Properties generally does not matter.  At least in this course, the order only matters if there is a conflict between two rules or two properties. 
 
@@ -82,5 +137,13 @@ If the stylesheet is called "style.css" and is in the same directory (folder) as
   <link rel="stylesheet" href="style.css">
   <title>Demo of Styles</title>
 </head>
-
+``` 
 The order of the statements in the head does not matter.
+
+## Comments
+
+* The one bit of common syntax shared by html and css is comments.  Comments are specified by <!-- Comment goes here --->
+* Comments do not show up to the user
+* Excessive (or any) comments are discouraged because of bandwidth
+* Don't just comment out "dead" or non-working parts of your program and leave them.
+
