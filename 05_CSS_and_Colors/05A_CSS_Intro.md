@@ -1,5 +1,15 @@
 # CSS and Colors Introduction
 
+Quickstart for this unit:
+
+Add the following line to the head of your document:
+
+```css
+ <link rel="stylesheet" href="style.css">
+```
+
+Now, in the same folder as your html, create a file named "style.css"
+
 ## CSS
 
 CSS stands for "Cascading Style Sheet"  CSS is used to control the appearance of a document.
