@@ -10,7 +10,7 @@ The inside cover of the textbook also has a list of CSS properties. It reference
 
 ### display Property
 
-The ```display``` property has many options.  The most important ones are shown below.
+The ```display``` property has many possible values.  The most important ones are shown below.
 
 ```css
  {display:block;}
@@ -40,7 +40,7 @@ An inline element does not start a new line.   It only takes up the space requir
 
 It is fairly common to specify some tags like &lt;ul&gt; elements to be inline tags.
 
-Examples of tags that are blocks by default:
+Examples of tags that are inline by default:
 
 * &lt;a&gt;
 * &lt;span&gt;

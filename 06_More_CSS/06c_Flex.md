@@ -8,8 +8,7 @@
 
 Flexboxes are a way to control horizontal location of objects.  They provide an alternative to "float" mechanisms.
 
-Flexboxes must have an outer container.  Often this outer container is a ```<div>```.  
-When the css ```display:flex``` rule is applied to the container, all of the immediate
+Flexboxes must have an outer container.  Often this outer container is a ```<div>```.  When the css ```display:flex``` rule is applied to the container, all of the immediate
 children of the outer container are moved into a horizontal arrangement.
 
 It is most common for the first children to be <div> elements.  However, any block element that is the immediate child of a flexbox will be "flexed."
