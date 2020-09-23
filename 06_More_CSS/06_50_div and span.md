@@ -1,12 +1,8 @@
-# 06a More tags and attributes
-
-
----
-
-
----
+# 06z_50 ```div``` and ```span```
 
 ## The &lt;div&gt; Tag
+
+*** div is a block element*** (Block elements have a blank line above and below)
 
 The &lt;div&gt;&lt;/div&gt; tag is a paired tag.
 
@@ -37,6 +33,9 @@ There is always a blank line placed before and after a &lt;div> tag.
 ---
 
 ## The &lt;span&gt; Tag
+
+*** span is an inline element*** (Inline elements are within block elements and do not get set off by blank lines.)
+
 
 The  &lt;span&gt;  &lt;/span&gt; is a paired tag.
 
