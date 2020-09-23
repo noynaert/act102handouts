@@ -72,29 +72,7 @@ There really is "One wierd trick" to centering text.  Basically the 0 means set 
 
 ---
 
-## Pseudo properties
 
----
-
-Technically the :hover plinks.roperty may be applied to any element.  However, it usually is used for 
-
-### :hover
-
-Hover applies when the mouse hovers over an element but no button is pressed on the mouse.
-
-### :active
-
-Active applies when the left mouse button is pressed, but before it is released.
-
-```css
-a:hover{color:red;}
-a:active{color:blue;}
-
-li:hover{color:red;}
-li:active{color:blue;}
-
-*:active {color:green;}
-```
 
 ---
 
