@@ -90,3 +90,9 @@ The span tag is only used withing paragraphs or lines.  It marks out a very smal
 ```html
 <p><span class="hero">Bill</span> considers <span class="food">Pizza</span> an essential camping supply. <span class="hero">Bill</span> is not very good at camping.</p>
 ```
+```css
+.highlight {background-color: bisque;
+            float:right;
+            width: 30%;
+        }
+```
