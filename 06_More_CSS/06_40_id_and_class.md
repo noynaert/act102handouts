@@ -1,4 +1,4 @@
-#06_40 ```id``` and ```class``` attributes
+# 06_40 ```id``` and ```class``` attributes
 
 ## The ```id``` attribute
 
