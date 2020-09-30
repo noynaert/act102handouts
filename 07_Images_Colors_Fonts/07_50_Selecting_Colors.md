@@ -1,4 +1,4 @@
-# 07_30 Selecting Colors
+# 07_50 Selecting Colors
 
 ## References
 
@@ -40,9 +40,13 @@ Side note:  If you are a science geek the "warm" and "cool" designations are bac
 
 ## Color Wheel
 
-We will use this color calculuator: https://www.sessions.edu/color-calculator/
+We will use this color calculator: 
 
-To use the color wheel, click on the dot in the white part of the circle and drag it out into a warm or cool color of your choice.  This will probably be the primary color of the color scheme.  Then click on the one of the "harmony" options (Try Complimentary first). Slide the dot for the priary color around until you find what you want.
+Another calculator: https://www.sessions.edu/color-calculator/
+
+To use the color wheel, click on the dot in the white part of the circle and drag it out into a warm or cool color of your choice.  This will probably be the primary color of the color scheme.  Then click on the one of the "harmony" options (Try Complimentary first). Slide the dot for the primary color around until you find what you want.
+
+Here is another calculator if the other is not working well: [https://www.canva.com/colors/color-wheel/](https://www.canva.com/colors/color-wheel/)
 
 ### Complimentary Colors
 

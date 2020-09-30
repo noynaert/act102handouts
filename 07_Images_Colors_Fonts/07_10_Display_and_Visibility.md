@@ -1,4 +1,4 @@
-# 07_20 Display and Visibility
+# 07_10 Display and Visibility
 
 Here is a limited CSS cheatsheet. http://www.lesliefranke.com/files/reference/csscheatsheet.html
 

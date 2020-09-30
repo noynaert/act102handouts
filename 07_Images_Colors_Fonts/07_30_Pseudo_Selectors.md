@@ -1,4 +1,4 @@
-# 07_10 Pseudo selectors
+# 07_30 Pseudo selectors
 
 "Pseudo Selectors" refer to the **state** of a selector.  
 

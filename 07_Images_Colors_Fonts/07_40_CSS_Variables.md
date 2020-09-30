@@ -8,9 +8,9 @@ to all scopes.  Therefore the scope is often defined as ```:root``` so that it h
 ## Declaring Variables
 
 ```css
-   :root {--primaryColor: blue;
-          --accentColor:pink;
-          --borderFormat: 1px solid var(--primaryColor);
+   :root {--primaryColor: #0000ff;
+          --accentColor:  #ff4500;
+          --borderFormat: 1px solid var(--accentColor);
           --defaultImgWidth: 250px;
           --defaultImgHeight: 250px;
    }
