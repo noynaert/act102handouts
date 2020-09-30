@@ -1,4 +1,5 @@
-# Images and Image Files
+# 07)50 
+Images and Image Files
 
 ***TL;DR*** Only use .jpg files for photographs.  Use .png or .gif files for all other images
 

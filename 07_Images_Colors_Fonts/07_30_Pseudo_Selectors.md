@@ -1,14 +1,18 @@
-# 06_60 Pseudo selectors
+# 07_10 Pseudo selectors
 
-Technically the :hover property may be applied to any element.  However, it usually is used for anchors and links.
+"Pseudo Selectors" refer to the **state** of a selector.  
 
 [W3C information](https://www.w3schools.com/css/css_pseudo_classes.asp)
 
-## :hover
+## For anchors
+
+Technically the :hover property may be applied to any element.  However, it usually is used for anchors and links.
+
+### :hover
 
 Hover applies when the mouse hovers over an element but no button is pressed on the mouse.
 
-## a:active
+### a:active
 
 Active applies when the left mouse button is pressed, but before it is released.
 
@@ -22,6 +26,6 @@ li:active{color:blue;}
 *:active {color:green;}
 ```
 
-## a:visited
+### a:visited
 
 :visited applies to links that were previously visited.  Most browsers change blue links to purple after you use them.  :visited is often used to undo this behavior.  It is sometimes a bad thing to do.
