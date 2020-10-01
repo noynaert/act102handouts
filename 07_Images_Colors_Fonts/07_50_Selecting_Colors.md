@@ -90,7 +90,12 @@ Triadic color schemes tend to be very vibrant.  [Example of a Triadic color sche
 
 Use a photo that is on your web page.  This is actually one of my favorite methods.  At least this way the colors on your website will not clash with the main photo!
 
-There are several sites available.  I like https://www.canva.com/colors/color-palette-generator/
+There are several sites available.  
+
+* https://www.canva.com/colors/color-palette-generator/  This site gives a small and manageable palate that may be exported
+* http://www.colr.org/ This gives you a *lot* of color choices.  It is nice if the canva.com site missed one color you really want.
+
+
 
 ![Clock Tower colors example](images/ClockTowerColors.png)
 
