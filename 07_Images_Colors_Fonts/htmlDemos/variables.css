@@ -7,8 +7,29 @@
    }
    h1 {color:var(--primaryColor);}
    
-   #campus * {margin: 0.25em;}
-   #campus  {border: var(--borderFormat);}
+   #myColors{
+          display:flex;
+          border: var(--borderFormat);
+       }
+  #myColors * {width:50%;
+         padding:0.5em;
+         min-height:3em;
+         border: var(--borderFormat);
+       }
+  .first{
+         color: var(--accentColor);
+         background-color: var(--primaryColor);
+       }
+  .second{
+         color: var(--accentColor);
+         background-color: var(--secondaryColor);
+       }
+  .third{
+         color: var(--primaryColor);
+         background-color: var(--accentColor);
+       }
+       
 
-   a, a:visited {color:var(--accentColor);}
+
+   a, a:visited {color: var(--accentColor);}
    a:hover, a:active{background-color: var(--secondaryColor);}
