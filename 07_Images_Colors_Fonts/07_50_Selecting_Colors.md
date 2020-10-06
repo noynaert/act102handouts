@@ -103,6 +103,38 @@ There are several sites available.
 
 There are many sites available.  One of the more famous is https://coolors.co/browser/latest/1
 
+## Color Strategies for Web Pages
+
+So we have colors.  How do we use them?  One strategy is Primary, Secondary, and Accent colors.  Then the colors would be used in a target ratio.  One common scheme is as follows:
+
+* Primary color 
+  * 65% of the color on the page
+* Secondary color
+  * 30% of the color on the page
+* Accent Color
+  * 5% of the color on the page
+  * Use mainly for "Calls to action"
+    * In most cases that is for links
+
+### My take on colors
+
+I am bad at picking colors.  Really bad.  Maybe that is why I am using markdown instead of html for these handouts; I don't have to pick colors in .md!
+
+So, in lieu of good color sense, I am forced to use tools.  If forced to make color choices, and I don't have someone I trust to ask, I tend to resort to what I call "Reverse Split Complimentary."  I use split complementary, but I put the "point" on the access color.  Then I use the two analogous colors for my primary and secondary colors.  Like This one: https://www.sessions.edu/color-calculator-results/?colors=ffc53e,e83eff,3e6bff
+The bluish and greenish colors would be primary and secondary.  The opposite or complimentary collor (orangish) would be the accent.  Another choice would be to use monochromatic colors for the primary and secondary colors and then take the compliment as the accent color.
+
+And don't forget that you can combine methods.  If you use a picture or palette pick a couple of similar colors (analogous or monochromatic) for the Primary and secondary color  Then pick an opposite (complimentary) color for the accent.
+
+#### On a personal note...
+
+My color sense has improved since we started teaching color theory in ACT102.  It still isn't great, but I can say it is much better than I used to be (granted, I started from a low base when marking improvement).  I have looked at color wheels often enough to recognize when colors are complimentary, analogous, and so forth.  We had our house repainted this summer.  When the painter gave showed us some different color palettes for the house I recognized the different options as monochromatic, analogous, and   complimentary.
+
+But mainly, I *notice* color combinations now.  When I look at websites, billboards, or printed flyers I look at the colors they are using.  And I think in terms of color harmonies.  My observation in the previous section about "reverse split complimentary" and monochromatic with a complimentary accent color come from me observing professional designs and websites.  
+
+Also, I still favor picking colors from an image.  But now when I do that I tend to pick two colors that are close to each other and then go looking for a complimentary color.
+
+So please pay attention to colors, especially if you think you are not artistic.  Start watching how colors are used.  Try to figure out color harmonies your favorite websites use.  Stop and pay attention to the color usage in advertisements that catch your eye.  Pay attention to the way houses are painted and how fashionable people pick their clothing colors.  I think that to some extent color selection can be a learned skill.
+
 ## Credits
 
 * Gradient Color Wheel: http://www.texample.net/tikz/examples/tag/color-manipulation/

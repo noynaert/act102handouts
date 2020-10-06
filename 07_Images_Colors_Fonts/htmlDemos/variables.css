@@ -1,0 +1,14 @@
+:root {--primaryColor: #26408B;
+          --secondaryColor: #81B1D5;
+          --accentColor:  #ff4500;
+          --borderFormat: 1px solid var(--secondaryColor);
+          --defaultImgWidth: 250px;
+          --defaultImgHeight: 250px;
+   }
+   h1 {color:var(--primaryColor);}
+   
+   #campus * {margin: 0.25em;}
+   #campus  {border: var(--borderFormat);}
+
+   a, a:visited {color:var(--accentColor);}
+   a:hover, a:active{background-color: var(--secondaryColor);}
