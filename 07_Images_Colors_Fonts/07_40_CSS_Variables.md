@@ -22,6 +22,10 @@ to all scopes.  Therefore the scope is often defined as ```:root``` so that it h
                     background-color: var(--accentColor);
                     border: var(--borderFormat);
    }
+
+   h2 {color:var(--primaryColor);
+       color:var(--secondaryColor;)
+   }
 ```
 
 ## Variables and the Cascade
@@ -29,5 +33,3 @@ to all scopes.  Therefore the scope is often defined as ```:root``` so that it h
 The CSS Cascade rules still apply to variables.
 
 Often a file containing variables needs to be applied across other stylesheets.  Therefore a file containing the variable declarations often is placed first.
-
-In the case of this week's homework, we put the variable file last because we wanted to overrule any styling that was in the layout or footer.  In a larger application we probably would have split the color harmony file into two parts.  The first part would have defined the variables, and it would have been placed first.  A second file that used the variables would have been placed last.
