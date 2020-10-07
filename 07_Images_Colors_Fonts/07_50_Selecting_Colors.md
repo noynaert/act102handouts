@@ -29,7 +29,7 @@ Do not pick colors just because you like them.  Pick colors that are appropriate
 Note that this color wheel gets dark toward the middle.  But the principles still apply.
 
 * Warm colors are the colors of a sunny day or a sunset.  Reds, Yellows, and Oranges are warm colors.  Browns are considered warm colors.
-* Blues and purples are the colors of overcast days.  Gray is considered a warm color.
+* Blues and purples are the colors of overcast days and are considered cool colors.  Gray is considered a cool color.
 * Greens tend to fall into both warm and cool color palettes.
 
 Warm colors tend to catch attention.  They are generally more vibrant and exciting.
@@ -38,7 +38,7 @@ Cool colors are thought to be more relaxing and tend to fade into the backgroud.
 
 Side note:  If you are a science geek the "warm" and "cool" designations are backwards from what we usually see in physics.  For example, a "red hot" piece of iron is cooler than one that is blue.
 
-## Color Wheel
+## Color Harmonies
 
 We will use this color calculator: 
 
