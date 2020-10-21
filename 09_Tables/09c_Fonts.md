@@ -1,4 +1,4 @@
-# 07c Fonts
+# 09c Fonts
 
 ## References
 
@@ -47,29 +47,6 @@ Google fonts has a category called "Display Fonts"  It includes fonts that are g
   * May be serif or san serif.
   * Good for arranging things into columns
   * Most san serif fonts used in it applications try to reduce ambiguities.  For example, they clearly distinguish between a capital I, lower case l, and the digit 1.
-  
-
-## Fonts you should know for the exam
-
-* **Roman**
-  * Serif, proportional font
-  * Used for old newspapers (Before the New York Times)
-  * Dignified and authoritative
-* **Times Roman** or Times New Roman
-  * Compressed version of Roman
-  * If you have 4 pages of material for a 5 page paper, Times Roman is *not* your friend (Hint: Use Schoolbook)
-  * If you are paying for photocopies of a long document Times Roman *is* your friend
-* **Arial** or Helvetica
-  * These are very similar fonts.  Helvetica is the name you usually see on Macs.  Arial is on everything else.
-  * Proportional sans serif
-*  **Courier** or Courier New
-  * This is a fixed with serif font
-  * Used on old typewriters
-  * Takes up a lot of space
-* **Lucinda Console**
-  * Lucinda is a family of fonts intended to remain legible at small sizes
-  * Lucinda Console is sans serif and monospaced
-  * Popular with programmers and in console applications
 
 ## Web Safe Fonts
 
@@ -89,6 +66,29 @@ h1, h2, h3 {
 Font names with blanks must have quote marks around them. You may use either double or single quotes.
 
 It is normal to give one or two alternative fonts.  If the first font is not available the fallback will be used.  The final option should be "serif" "sans-serif" or "monospace."
+
+
+## Fonts you should know for the exam
+* **Arial** or Helvetica
+  * These are very similar fonts.  Helvetica is the name you usually see on Macs.  Arial is on everything else.
+  * Proportional sans serif
+* **Roman**
+  * Serif, proportional font
+  * Used for old newspapers (Before the New York Times)
+  * Dignified and authoritative
+* **Times Roman** or Times New Roman
+  * Compressed version of Roman
+  * If you have 4 pages of material for a 5 page paper, Times Roman is *not* your friend (Hint: Use Schoolbook)
+  * If you are paying for photocopies of a long document Times Roman *is* your friend
+*  **Courier** or Courier New
+     * This is a fixed with serif font
+     * Used on old typewriters
+     * Takes up a lot of space
+* **Lucinda Console**
+  * Lucinda is a family of fonts intended to remain legible at small sizes
+    * Lucinda Console is sans serif and monospaced
+    * Popular with programmers and in console applications
+
 
 ## Other CSS font specifications
 
