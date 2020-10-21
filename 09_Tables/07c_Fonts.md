@@ -15,7 +15,7 @@ Don't use more than two or three fonts on a given web page.  Things can look clu
 
 ## Font Families
 
-![Serif and Sans Serif](images/Serif-Sans-Comparison.png)
+![Serif and Sans Serif](images/serif-sans-comparisonpng-wikipedia-sansserif-png-332_186.png)
 
 * **Serif** 
   * Serifs are the little do-dads on the corners of fancy printing
