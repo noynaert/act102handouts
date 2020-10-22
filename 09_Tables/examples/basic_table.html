@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    table{width:80%;}
+
+    table,tr,td,th{
+      border:1px solid black;
+      border-collapse: collapse;
+      text-align:center;
+    }
+    .age {width:10%;}
+    .job {text-align:left;
+          padding-left:.5em;
+    }
+    tr:last-child {border-bottom:5px solid grey;}
+    td {border-bottom:2px solid grey;}
+    th {padding: 10px;
+        border-bottom:5px solid grey;
+    }
+    a {color:green;
+       background-color:yellow;
+    }
+
+    a:visited {color:green;
+       background-color:yellow;
+    }
+
+    a:active{background-color:red;}
+
+    a:hover {
+      color: yellow;
+      background-color: green;
+    }
+
+    tbody {background-color:coral;}
+    #firstCaption {border:1px dashed green;
+    }
+    #firstCaption{font-size:300%}
+  </style>
+</head>
+<body>
+  <h1>Tables</h1>
+  <table>
+    <thead>
+    <caption id="firstCaption">
+
+      <div> <img src="images/The_Flintstones.jpg" alt="Fred driving"></div>
+      <div><a href="https://en.wikipedia.org/wiki/The_Flintstones">The Flintstones</a></div>
+
+    </caption>  
+   
+    <tr>
+      <th class="name">Name</th>
+      <th class="age">Age</th>
+      <th class="job">Job</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="name">Fred</td>      
+      <td class="age">35</td>
+      <td class="job">Heavy Dino Operator</td>
+    </tr>
+    <tr>
+      <td class="name">Barney</td>      
+      <td class="age">34</td>
+      <td class="job">Laborer</td>
+    </tr>
+    <tr>
+      <td class="name">Wilma</td>
+      <td class="age">34</td>
+      <td class="job">Homemaker</td>
+    </tr>
+  </tbody>
+  </table>
+
+  <!--
+     <caption id="firstCaption">
+      <div><a href="https://en.wikipedia.org/wiki/The_Flintstones">Flintstones</a></div>
+      <div> <img src="images/The_Flintstones.jpg" alt="Fred driving"></div>
+    </caption>
+  -->
+</body>
+</html>
