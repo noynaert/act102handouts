@@ -40,13 +40,11 @@ Below I have a few of the syntax elements useful for regex in html.
   * [0-9]{6} would require exactly 6 digits.
   * [a-z]{1,15} would require from 1 through 15 lower case letters.
 
-A MWSU gnumber might be specified as the following.  Either would work.
+A MWSU gnumber might be specified as the following.  There are other options that would also work.
 
 ```html
     <form>
         <p>Gnumber: <input type="text" pattern="[Gg]00[0-9]{6}"></p>
-        <!--Another way to do it.-->
-        <p>Gnumber: <input type="text" pattern="G00[0-9]{6}" title="A G Number must start with G00 followed by exactly 6 digits."></p>
         <p><input type="submit"></p>
     </form>
 ```
@@ -55,7 +53,7 @@ The default text message is not terribly helpful  You may specify a title attrib
 
 ```html
     <form>
-        <p>Gnumber: <input type="text" pattern="G00[0-9]{6}" title="A G Number must start with G00 followed by exactly 6 digits."></p>
+        <p>Gnumber: <input type="text" pattern="[Gg]00[0-9]{6}" title="A G Number must start with G00 followed by exactly 6 digits."></p>
         <p><input type="submit"></p>
     </form>
 ```

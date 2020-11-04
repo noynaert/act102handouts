@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Additional Controls</title>
+    <style>
+      .border {border: 1px solid black;}
+      .highligh {background-color:lightgray;}
+    </style>
+  </head>
+  <body>
+    <h1>Additional Form Controls</h1>
+    <form class="border" method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+       <div class="highlight">
+         <label>Name </label>
+         <input type="text" name="name">
+         <p><small>Type your first and last name</small></p>
+       </div>
+       <!--Textarea-->
+       <div>
+         <label>About you </label>
+         <textarea name="about">
+         </textarea>
+       </div>
+       <div>
+         <input type="submit">
+       </div>
+    </form>
+  </body>
+</html>
