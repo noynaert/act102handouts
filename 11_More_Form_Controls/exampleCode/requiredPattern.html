@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Additional Controls</title>
+    <style>
+      .border {border: 1px solid black;}
+      .highligh {background-color:lightgray;}
+    </style>
+  </head>
+  <body>
+    <h1>Additional Form Controls</h1>
+    <form class="border" method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
+       <fieldset>
+         <label>Name </label><br>
+         <input type="text" name="name" required>
+       </fieldset>
+       <fieldset>
+         <label>GNumber</label><br>
+         <input type="input" name="gnumber" pattern="[Gg]00[0-9]{6}" 
+             title="A GNumber must start with G00 followed by exactly 6 digits."
+         >
+       </fieldset>
+       <div>
+         <input type="submit">
+       </div>
+    </form>
+  </body>
+</html>

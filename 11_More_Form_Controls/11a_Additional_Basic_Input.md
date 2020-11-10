@@ -17,7 +17,7 @@ Textareas is a paired tag.  Anything between the tags is the default content.
 </form>
 ```
 
-![Example of textarea in the browser](exampleCode/images/02TextArea.png)
+![Example of textarea in the browser](images/02TextArea.png)
 
 ### Checkboxes
 
@@ -62,7 +62,7 @@ The following code shows two text boxes.  One uses a div, the other uses a table
         </form>
 ```
 
-![Example of two check box lists in a browser](exampleCode/images/03Checkboxes.png)
+![Example of two check box lists in a browser](images/03Checkboxes.png)
 
 ### checked attribute
 
@@ -97,9 +97,9 @@ The idea with radio buttons is that only one may be selected at a time.  Once a 
 
 The ```checked``` attribute may be used with radio buttons.
 
-#### &lt;fieldset>
+## &lt;fieldset>
 
-The &lt;fieldset> is a fairly new html tag.  It is meant to group related controls.  Previous versions of html would have just used a <div> in most cases.  Note that &lt;br> tags are still required.
+The &lt;fieldset> is a fairly new html tag.  It is meant to group related controls.  Previous versions of html would have just used a &lt;div> in most cases.  Note that &lt;br> tags are still required.
 
 Browsers are supposed to show fieldset with the following default CSS.  However, the CSS can be modified.
 
@@ -118,7 +118,7 @@ fieldset {
 
 ### Drop down or &lt;select> controls
 
-Functionally, drop-down lists give the same effect as checklists.  They give the user a list of options, but the user may only pick one.  Drop-down lists are better when there is a long list of choices, such as all the states in the US.
+Functionally, drop-down lists give the same effect as radio buttons.  They give the user a list of options, but the user may only pick one.  Drop-down lists are better when there is a long list of choices, such as all the states in the US.
 
 In html5 there is a "multiple" option that allows selecting multiple items like a checkbox.
 

@@ -7,11 +7,12 @@
     <style>
       .border {border: 1px solid black;
                border-radius: .5em;
-               padding: .5em;
+               padding: 0.25em;
       }
       .highligh {background-color:lightgray;}
-      fieldset {border-radius: 15px;
-        background-color: #abcdef;
+      fieldset{border-radius: 10px;
+          background-color:#abcdef;
+          margin-bottom:15px;
       }
     </style>
   </head>
@@ -19,11 +20,11 @@
     <h1>Additional Form Controls</h1>
     <form  method="GET" action="https://webservices.missouriwestern.edu/users/noynaert/act102/api/generic.php">
        <fieldset>
-          <label>Pick your hobbies.  Select all that apply.</label><br>
-          <input type="checkbox" name="hobby" value="music">Music or Dance<br>
-          <input type="checkbox" name="hobby" value="tech">Coding and Computers<br>
-          <input type="checkbox" name="hobby" value="sports">Sports and Fitness<br>
-          <input type="checkbox" name="hobby" value="art">Art<br>
+         <label>Location</label><br>
+         <input type="radio" name="location" value="agensteim">Agenstein Hall<br>
+         <input type="radio" name="location" value="remington">Remington Hall<br>
+         <input type="radio" name="location" value="murphy">Murphy Hall<br>
+        
        </fieldset>
        <div>
          <input type="submit">
