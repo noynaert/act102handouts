@@ -27,14 +27,6 @@ Current version is version 4
 
 Minified code squeezes out blank spaces, comments, and unnecessary code.  
 
-## Viewport
-
-If you are using Bootstrap, leave in the Viewport meta statement
-
-```html
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-
 ## CDN Method
 
 **Content Delivery Network**
