@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>functions</title>
+  <script>
+    function greet(){
+      nameBox = document.getElementById("name");
+      console.log(nameBox);
+      person=nameBox.value;
+      console.log(person);
+
+      target = document.getElementById("message");
+      console.log(target);
+      target.innerHTML="Hello, "+person;
+    }
+    function change(color){
+      console.log("In enter");
+      element=document.getElementById("top");
+      console.log(element);
+      element.style.backgroundColor=color;
+    }
+   
+  </script>
+</head>
+<body>
+  <h1 id="top" onmouseover="change('#abcdef')" onmouseout="change('#ffffff')">Alerts</h1>
+  <p>
+    <label>Your name:</label><br>
+    <input type="text" id="name"><br>
+    <button  onclick="greet()">Click Me</button>
+  </p>
+  <p id="message">&nbsp;</p>
+</body>
+</html>
