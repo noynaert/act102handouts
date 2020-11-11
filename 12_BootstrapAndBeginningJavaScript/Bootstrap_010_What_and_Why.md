@@ -1,6 +1,6 @@
 # Bootstrap 010 -- What is Bootstrap, and Why Use It?
 
-This material is based on Bootstrap version 4.
+This material is based on Bootstrap version ~~4~~ 5.
 
 ## What is Bootstrap?
 
