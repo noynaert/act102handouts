@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript</title>
+  <script>
+    function colorize(c){
+       head = document.getElementById("heading");
+       head.style.backgroundColor= c;
+    }
+
+    function clicked(thing){
+      console.log("I got clicked");
+      theTarget = document.getElementById("target");
+      console.log(target);
+      console.log(theTarget.innerHTML);
+      theTarget.innerHTML = thing;
+    }
+
+  </script>
+</head>
+<body>
+  <h1 id="heading" onmouseover="colorize('#abcdef')" onmouseout="colorize('white')">JavaScript</h1>
+  <div>
+    <button onclick="clicked('WHAM!')">ClickMe</button>
+    <p id="target">Just minding my own business.</p>
+  </div>
+</body>
+</html>
