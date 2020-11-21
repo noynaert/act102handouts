@@ -67,8 +67,8 @@ Cell content may include almost anything that would go in a paragraph.  This inc
 Usually you specify a rule like this for the table.
 
 ```css
-table, tr, td {border:1px solid black;
-               border-collapse:separate;
+table, tr, th, td {border:1px solid black;
+               border-collapse:collapse;
 }
 ```
 Note the commas in ```table,tr,td``` 
