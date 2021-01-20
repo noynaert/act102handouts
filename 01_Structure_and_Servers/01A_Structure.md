@@ -1,98 +1,5 @@
 # Structure of a web page
 
-This unit corresponds roughly to the following references:
-
-* W3 Schools
-  * https://www.w3schools.com/html/default.asp
-  * https://www.w3schools.com/html/html_intro.asp
-  * https://www.w3schools.com/html/html_editors.asp (I disagree with them.  I recommend VS Code)
-  * https://www.w3schools.com/html/html_basic.asp
-  * https://www.w3schools.com/html/html_elements.asp (I called them tags.  W3C calls them elements.)
-  * https://www.w3schools.com/html/html_attributes.asp (You don't need to know the attributes they list right now, but you will need to know them eventually.  We will cover the attributes they list later.  For now just know what an attribute is and its basic syntax of an attribute.)
-
-## Of Files and Folders
-
-### Files
-
-We will be working with text files with an extension of .html
-
-#### Two Great Commandments in this course
-
-First Commandment: *Thou shalt not put blanks in file names.*
-
-And the Second Commandment is like unto the first: *Thou shalt not put special characters in file names, except maybe an underscore*
-
-|Good Names|Bad Names|
-|---|---|
-|index.html|start page.html|
-|quick_and_easy.html|quick&easy.html|
-
-#### Parts of a file name
-
-File names usually have two parts that are divided by a period.  The part before the period is called (confusingly), the ```file name.```  It is the part that the user is often
-allowed to select.  
-
-##### Extension
-The part after the last period is the ```extension.```  Extensions are often set by software and the user does not get to pick their meaning.  Extensions are typically 3 or 4 characters long.  If a file name has more than one period the extension is the part after the last period.  Extensions generally indicate the contents of the file.
-
-* .txt Indicates that the file contains human-readable text with no character formatting such as bold or italics.  All the text is the same size.  Very simple text editors like notepad can be used to edit a .txt file.
-* .jpg This extension indicates the file contains an image that use jpeg compression.
-* .html This extension indicates the file contains a web page.  An html is a text file.  It uses tags to indicate special formatting, but it may be edited with a simple text editor.
-* .json This extension indicates the file contains data in JavaScript's json string notation.  It is also a text file.
-
-#### Microsoft and File Names
-
-By default modern versions of Windows hide the file extensions.  Instead, Microsoft Windows uses uses different icons for different file types.  This is a problem
-for many software developers.  Fortunately, it is possible to tell Windows to override the default behavior and show the file names. It is done in the "View" option of file explorer.
-
-
-### Folders
-
-* Folders, Directories, Subdirectories all mean the same thing.
-  * A folder is a collection of files and other folders
-  * Windows, Linux, and Mac all use folders to keep things organized
-* We will work with folders a lot this semester.  Visual Studio Code works best when it is working with files inside folders.
-
-#### The "Landing Page"
-
-When we view a folder in a browser we can see all of the files.  For example, go to [https://webservices.missouriwestern.edu/users/noynaert/act102/](https://webservices.missouriwestern.edu/users/noynaert/act102/)   You should be able to see the files and folders.
-
-Now go to [https://webservices.missouriwestern.edu/users/noynaert/act102/zzzIgnoreThis/](https://webservices.missouriwestern.edu/users/noynaert/act102/zzzIgnoreThis/)
-
-You cannot see the contents of the zzzIgnoreThis folder because it has a special file named index.html.  index.html is a "landing page."  When you go to a directory or folder with an index.html file the browser shows you the contents of the index.html file instead of the directory contents.  Some systems use names like index.php or default.html.  However, all of these alternate names would be landing pages if they are set up to show by default.
-
-### Editors
-
-We need an editor that is good at processing simple text files
-
-Recommended Editor is [Visual Studio Code](https://code.visualstudio.com/).  It is a free program from Microsoft.  It runs on Windows, Linux, and Mac.
-
-#### The third great commandment of this course:  In VS Code, open folders, not files
-
-Notepad++ is an older editor that will also work for this course, but it lacks a lot of features.
-
-Plain old Windows Notepad will work, but I do not recommend it, except in an emergency editing situation.
-
-### Editors you should not use:
-
-* Wordpad
-* Word
-* Any other editor that does text formatting in a gui environment.
-
-## Browsers
-
-Browsers are ***Client Software***.  A browser's job is to read an .html file (or other type of file) and "render" it according to the html instructions.
-
-Common Browsers:
-
-* Chrome
-* Firefox
-* Internet Explorer
-* Edge
-* Safari
-* Opera
-* Lynx (Ok, not so common, but interesting)
-
 ## HTML file Structure
 
 ```html
@@ -107,46 +14,34 @@ Common Browsers:
 </body>
 </html>
 ```
+## Fixing the ```<title>```
 
-### &lt;!DOCTYPE html&gt;
+Give the title something meaningful.
 
-The &lt;!DOCTYPE html&gt; statement is not really HTML.  It is just a message to the browser that tells what type of file is coming.
+## Puting content in the ```<body>```
 
-### Tags
+At this point the web page is a big white box.
 
-Tags describe the structure and function of the text in a document.
-Tags are surrounded by "angle brackets."  The are actually the less than and greater than symbols, but are referred to as angle brackets in HTML.
+There are many things we can put in it, but for now we are going to focus on headings and paragraphs.
 
-Tags are always in lower case.
+### Headings
 
-Most (but not all) tags come in pairs.  There is an opening tag and a closing tag.  The closing tag always has / before the tag name.
+We indicate headings with pairs of tags.  The most important tag is ```<h1>...</h1>```. It is pretty common to only have 1 ```<h1>``` tag on a page.  A lot of times the text inside the ```<h1>``` tag matches the title, but it does not have to.
 
-### Tags must be properly nested
+The ```<h2>...</h2>``` tag is the second most important heading.  It would be common to have a lot of ```<h2>``` tags.
 
-Pairs of tags can be nested inside other tags.  In the example code above notice:
+### Paragraphs
 
-* The &lt;html&gt; tag is the first tag, and the &lt;/html&gt; closing tag is the last tag.  Everything else is nested inside.
-* The &lt;head&gt; and the &lt;/head&gt; are inside the html tag.  The &lt;/head&gt; appears before the &lt;body&gt; tag starts
-* The &lt;title&gt; tag is nested inside the &lt;head&gt; tag.
+The pair of tags ```<p>...</p>``` is used to mark paragraphs.
 
-### How the HTML file is interpreted by the Browser
+## Word Wrap
 
-The "Head" part of the document has "meta" information about the page, including the title.
+The browser handles word wrap.  It is based on the width of the display.  Don't try to control it with the carriage return.
 
-The text in the &lt;title&gt; is what goes in the browser tab.
+## White Space
 
-The &lt;body&gt; through the &lt;/body&gt; part of the document shows up in the main window.
+The term "White Space" refers to characters like spaces, tabs, and carriage return.  
 
-## Attributes
+The browser "collapses white space."  If there are white spaces next to each other, they are collapsed into a single space.
 
-Sometimes tags have additional information added to them.  The &lt;html lang="en-us"&gt; tag has some extra information tacked on.  The part that says lang="en-us" is called an ***attribute***.  In this case the attribute tells the browser that this page is written in English, and specifically US English.  The browser can use this information to determine which alphabet to use.  If the language had specified Russian, the browser would use a Cyrillic script.
-
-### Attribute format
-
-Attributes always have the same format.  They start with a key work like "lang".  Then they have an equal sign.  Last they have the value.  Normally the value is enclosed in quotation marks.  HTML5 technically does not require quotes if the attribute is a single word, but the convention is to always use the quotes.
-
-There is one other tag that has an attribute.  What is it?
-
-#### Special Note On Oddball Computer Science Jargon
-
-In Computer Science jargon, the " symbol is often called "Double quotes" or "Double quote marks."  We use this terminology because the apostrophe symbol ' is sometime used as quote marks as well.  What normal humans sometimes call an apostrophe is known as a "Single quote" by Computer Scientists.  In most language there are subtle but important differences between a single quote and a double quote.
+The browser collapses white space before it does word wrap.
