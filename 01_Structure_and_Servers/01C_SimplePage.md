@@ -59,23 +59,3 @@ The P: drive is a drive on campus computers.  The P: drive is only available on 
 
 Your P: drive should have a directory called P:\public_html.
 
-### Mini exercise
-
-* Open a browser.  Go to the following url, except put in your own email address instead of XXXXX  http://webservices.missouriwestern.edu/users/XXXXX  You should see the contents of the P:\public_html folder.  It will probably be empty.
-* Using the Windows file explorer, copy your aboutMe.html file into the p:\public_html folder.
-* Refresh your browser.  You should see the aboutMe.html file.  Click on it and you should see your web page.
-* Go back to the browser and refresh.  You should now see the homework folder along with your aboutMe.html folder.
-* Open a new tab in your browser.  In the new tab put in the url of the person sitting next to you.  You can now see their files as well.  In fact, anyone on the Internet can rummage through your folders and files.  This is not necessarily a good thing.
-* In Windows file explorer, right click on aboutMe.htm.  Rename the file "index.html" without the quote marks.  Refresh your browser.
-* ***index.html is a "magic file name."  When the server software sees a file named index.html or index.php it will display that file instead of the entire directory contents.  index.html becomes the landing page for your directory***
-* Review your index.html to make sure there is no confidential information.  Use VS Code to edit the file if there is any confidential information or anything you do not want to show up on the Internet.  Save the file and refresh your browser.
-* The index.html folder is now the "landing page" for your campus web site.  It blocks people from browsing through your documents.  However, if the person knows of a file or folder name on your site they can still get to it.
-* If you really want privacy copy the source code from the turing.cs.missouriwestern.edu landing page and use that for your index.html page.  It is your choice.
-
-## Things to know
-
-* What is client software? Give some examples.
-* What is a server?  How is a computer running a server different than a computer running a client?
-* What is the significance of the file name index.html?
-* What is a landing page?
-  
