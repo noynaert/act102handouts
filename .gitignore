@@ -1,4 +1,5 @@
 videoNotes/*.pdf
+a.html
 
 ####### THE REST IS ALL LaTeX ########
 ## Core latex/pdflatex auxiliary files:
@@ -285,3 +286,4 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+a.html
