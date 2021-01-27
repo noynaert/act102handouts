@@ -47,4 +47,4 @@ There are tags for large and small.  As you might expect, they increase and decr
 
 The text tags on this page may be nested.  For example it is possible to have both <b><i>bold and italics</i></b>.  The trick is to remember that tags must be properly nested.  The best second tag must be opened and closed inside the first tag.  For example &lt;b>&lt;i>X&lt;/i>&lt;/b>. This is called "First In, Last Out" or LIFO.
 
-The order of the nesting does not matter.  
+The order of the nesting does not matter for these text tags, although the order does matter for some types of nesting.
