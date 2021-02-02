@@ -58,7 +58,7 @@ Edit the JSON file.  Mine looks like this:
     "protocol": "sftp",
     "port": 22,
     "username": "noynaert",
-    "remotePath": "/public_html/act",
+    "remotePath": "/public_html/act102",
     "uploadOnSave": true
 }
 ```

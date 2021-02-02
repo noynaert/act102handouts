@@ -1,5 +1,7 @@
 # Text in HTML
 
+Note that some material near the end of this unit is a review of items covered in previous chapters.
+
 ## Using light switches for messages
 
 ![Single Switch](images/single.png)  
