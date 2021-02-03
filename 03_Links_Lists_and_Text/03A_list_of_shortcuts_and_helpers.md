@@ -14,6 +14,7 @@ On the exam there may be shortcuts for Windows/Linux system.  You should know th
 
 Shortcut|Meaning
 :---:|:---
+Alt+Tab|Switch between Applications
 Ctrl+a|Select All
 Ctrl+c|Copy
 Ctrl+x|Cut
