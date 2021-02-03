@@ -7,7 +7,7 @@ There are only two new tags in this unit.
 
 The ```<div>``` tag is a block element.
 
-The ```<div>``` tag is for "division."  It is similar to the ```<section>``` tag.  Section was added in html5.  Before html5 we only used div elements.
+The ```<div>``` tag is for "division."  It is similar to the ```<section>``` tag and the ```<footer>```.  Section and footer tags were added in html5.  Before html5 we only used div elements.
 
 The div element may be used to mark part of a document with an id.  The main difference is that the ```<div>``` tag does not need a heading element right after it.  That makes the div element more or less invisible.
 
