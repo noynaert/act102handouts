@@ -92,7 +92,7 @@ One use of composites is to write diacritical marks on characters.
 * e&amp;#769; gives e&#769;
 * O&amp;#769; gives O&#769;
 * a&amp;#771; gives a&#771;
-* O&amp;#771; gives O&#771;
+* O&amp;#771; gives &#771;
 
 ### Unicode Composites
 
