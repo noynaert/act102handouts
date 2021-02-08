@@ -105,4 +105,4 @@ Note that the Sign for "woman cook" is the symbol for woman (U+1F69) combined wi
 
 * :woman: U+1F469
 ‍* A "Narrow Space" U+200D
-* :cooking: U+1F373
+* :cooking: :fried_egg: U+1F373
