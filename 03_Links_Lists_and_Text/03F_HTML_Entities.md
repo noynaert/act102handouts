@@ -103,6 +103,8 @@ Flats are pretty well supported, so we will use them first.  See https://emojipe
 
 Note that the Sign for "woman cook" is the symbol for woman (U+1F69) combined with a narrow space (U+200D) and an eggry frying in a pan (U+1FF373)
 
-* :woman: U+1F469
-‍* A "Narrow Space" U+200D
-* :cooking: :fried_egg: U+1F373
+Symbol|Code|Description
+:---:|:---:|:---:
+:woman:| U+1F469 | Woman
+‍&nbsp;| U+200D |Narrow Space
+:fried_egg:| U+1F373 | Cooking or Fried Egg
