@@ -58,6 +58,7 @@ Symbol|Code|Name
 &nbsp;|&amp;nbsp;|nbsp
 &copy;|&amp;copy;|copyright
 &cent;|&amp;cent;|cent
+&amp;|&amp;amp;|ampersand
 &euro;|&amp;euro;|Euro
 &yen;|&amp;yen;|Yen
 
