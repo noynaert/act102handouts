@@ -39,9 +39,6 @@ The &lt;sup> tag is used to create superscripts.  It is useful for exponents and
 
 The &lt;sub> tag produces subscripts.  
 
-## &lt;large> and &lt;small>
-
-There are tags for large and small.  As you might expect, they increase and decrease the size of the text.  But I discourage their use.  most of the other tags in this section have structural meanings.  However, large and small are simply appearance.  It is better done with CSS.  We will do that later in the course.
 
 ## Nesting Tags
 
