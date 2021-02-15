@@ -1,25 +1,9 @@
 # Final Exam
 
-## Dates and Times
+The exam will be based on the handouts, notes, and videos.
 
-* Wednesday Evening Section: Wednesday, December 11, 6:30 p.m. - 8:30 p.m. 
-* Tuesday-Thursday Section: Thursday, December 12,	8:30 a.m. – 10:30 a.m.
+The final will cover the last unit and also will have a comprehensive component.
 
-## Content and Format
+The final may count in one of two ways.  I will use the method that gives you the highest grade.
 
-The exam will be on paper in class.  You must be physically present in our regular classroom.
-
-The exam will include a large number of objective questions.  However, there will be some hand-writing of code.  You should be able to write a complete webpage starting with !<DOCTYPE html>
-
-## Finals and Course Grade
-
-According to the course syllabus, the final exam may be counted in two different ways.  The version that gives you the best grade for the course will be used.
-
-Your lowest exam score will be dropped.
-
-* The final exam may be counted as a regular exam.  This will happen if your final exam is lower than any other text score.
-* The final exam may be counted as two regular exams.  This will happen if your final exam is a higher grade than one or more of your other exams.  
-
-### How the final will work mechanically
-
-There are 4 exams in the course including the final.  However the Canvas gradebook will show 5 exams.  It will show 5 exams because the final exam will be entered twice.  Then the lowest of the 5 scores will be dropped and the other 4 tests will be used to calculate your score.
+In the gradebook the final exam grade will be entered two times.  There will appear to be 4 exams.  I will drop your lowest exam grade.  This means if you have an exam grade that is lower than your final exam, the lower grade will be dropped and the final exam will count twice.  However, if your lowest grade is on the final exam, then the final exam only counts as a regular exam and does not get counted twice.
