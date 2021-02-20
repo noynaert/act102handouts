@@ -26,7 +26,7 @@ CSS consists of a series of rules that govern how different parts of a document 
 
  Selector: The selector specifies what parts of a page the rule will apply to.  A selector can be a lot of different things, but for this unit we will limit the selector to the following:
 
-* an html element tag such as body, h1, p, a, or hr.  Any tag will work
+* an html element such as body, h1, p, a, or hr.  Any element will work.  Remember that an element is the text within the tag
 * an id.  You must put # in front of the id.  For example #geography
 * A list of selectors with *commas* in between.  An example would be ```h1, h2, h3```.  The style applies to all of the elements listed.
 * Two or more selectors with a *space* in between. The style applies to the second element, but only when it is within the first elefment.  For example, ```#cities p``` would only apply to &lt;p&gt; tags within #cities.
