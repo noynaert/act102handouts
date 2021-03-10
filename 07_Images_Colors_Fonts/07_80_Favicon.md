@@ -1,6 +1,6 @@
 # 07.80 Favicon
 
-Favicons are the little image that shows up to the left of the URL in the browser. 
+Favicons are the little image that shows up ton the left side of the tab in the browser. 
 
 Originally they were always named favicon.ico.  But now .pngs and other types.
 
