@@ -60,9 +60,6 @@ Flex is a relatively new value.  We will do a section on it later. [A guide to f
 
 ---
 
-## Making a UL into a horizontal navigation window
-
-
 
 #### Using Margin properties to center an element
 
