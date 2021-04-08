@@ -1,5 +1,7 @@
 # Bootstrap 10.010 -- What is Bootstrap, and Why Use It?
 
+![Bootstrap Logo](htmlExamples/images/bootstrap5.png)
+
 ## What is Bootstrap?
 
 Bootstrap is a framework for CSS.
@@ -10,22 +12,29 @@ Bootstrap is a framework for CSS.
 * It provides a lot of nice features like grid layout and containers
 * Mostly it is a lot of classes
 
-# Versions of Bootstrap
+## Versions of Bootstrap
 
-This material is based on Bootstrap version 5.  At the time I am writing this, Version 5 is a late-stage beta Version
+This material is based on Bootstrap version 5.  At the time I am writing this, Version 5 is a late-stage beta Version.
 
-# How to include bootstrap
+### Major Changes in Version 5
 
-## Download method
+* No more jQuery
+* More responsive containers and grids
+* More scalable fonts
+* Allowing for .svg files
+
+## How to include bootstrap
+
+### Download method
 
 * Development
 * Minified
 
-### About minified code
+#### About minified code
 
 Minified code squeezes out blank spaces, comments, and unnecessary code.  
 
-## CDN Method
+### CDN Method
 
 **Content Delivery Network**
 
@@ -35,7 +44,7 @@ A CDN is a server that distributes standardized software
 * Better Load Speed: The software package probably downloads faster because there are usually CDNs located all over the world
 * Even faster load speed:  Your page may not even need to download the software if it is already in cache
 
-CDNs do have downsides
+#### CDNs do have downsides
 
 * Danger of code injection, but this is greatly minimized by the "integrity" field
 * May load more software than needed

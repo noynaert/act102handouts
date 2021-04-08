@@ -2,7 +2,7 @@
 
 By this point in the semester you probably understand something about how easy it is to let little glitches into your software, especially as that software gets more complex.
 
-There is a system for releasing software.  Typically software goes through an "Alpha-Beta-Release Life Cycle."
+There is a system for releasing software.  Typically software goes through an "Alpha-Beta-Stable-Release Life Cycle."
 
 Alpha and Beta are considered test candidates.  Products that contain Alpha and Beta level code should not be used in commercial or final projects.
 
@@ -31,3 +31,11 @@ RC is effectively a late version of Beta.  The developers think it is ready to g
 ## Stable
 
 Stable releases should be ready for public use.  There should be no significant bugs.  All the features should be working as advertised.  Generally the developer will supply technical support.
+
+## What version should you use?
+
+If you are working on a team, it is important that all members of the team work on the same version.  If software is going to be released for public use, it should be done with the latests stable version.  Sometimes a business will have a standard that is an older model.  They are willing to forgo some of the later features to stay with a version that they are familiar with and that works for them.
+
+If you get to chose a version, then it is usually best to pick the latest stable version. 
+
+Sometimes developers will use a late-beta or RC version because they expect the stable version to be released before their product is released, but this can be risky.
