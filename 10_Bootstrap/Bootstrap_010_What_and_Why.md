@@ -1,6 +1,4 @@
-# Bootstrap 010 -- What is Bootstrap, and Why Use It?
-
-This material is based on Bootstrap version ~~4~~ 5.
+# Bootstrap 10.010 -- What is Bootstrap, and Why Use It?
 
 ## What is Bootstrap?
 
@@ -14,7 +12,7 @@ Bootstrap is a framework for CSS.
 
 # Versions of Bootstrap
 
-Current version is version 4
+This material is based on Bootstrap version 5.  At the time I am writing this, Version 5 is a late-stage beta Version
 
 # How to include bootstrap
 
@@ -23,7 +21,7 @@ Current version is version 4
 * Development
 * Minified
 
-### About minimified code
+### About minified code
 
 Minified code squeezes out blank spaces, comments, and unnecessary code.  
 
@@ -35,10 +33,14 @@ A CDN is a server that distributes standardized software
 
 * Conserves Bandwidth: Your website does not have to download specialized software
 * Better Load Speed: The software package probably downloads faster because there are usually CDNs located all over the world
-* Evem faster load speed:  Your page may not even need to download the software if it is already in cache
+* Even faster load speed:  Your page may not even need to download the software if it is already in cache
 
 CDNs do have downsides
 
 * Danger of code injection, but this is greatly minimized by the "integrity" field
 * May load more software than needed
-* General insecurity from lack of complete control
+* General (personal) insecurity from lack of complete control
+
+## Getting Bootstrap
+
+Bootstrap changes over time. A good resource is [https://getbootstrap.com/](https://getbootstrap.com/) 
