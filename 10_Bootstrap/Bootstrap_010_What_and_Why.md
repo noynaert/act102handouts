@@ -22,6 +22,12 @@ This material is based on Bootstrap version 5.  At the time I am writing this, V
 * More responsive containers and grids
 * More scalable fonts
 * Allowing for .svg files
+* Uses flexboxes instead of float
+
+## Google Warning
+
+Bootstrap 4 and Bootstap 5 are generally similar from the developer's standpoint.  However, they "broke" a lot of things done in earlier versions.
+So, be very careful about material you find in web searches.  Make sure you are looking at material for Version 4 or Version 5.  If it is for an earlier version, or if there is no version mentioned, then be very cautious about using the information.
 
 ## How to include bootstrap
 
