@@ -5,13 +5,23 @@
    
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Bootstrap</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous"> 
+  <title>Bootstrap example</title>
+  <style>
+    .root {
+      --orange: #fd7e14;
+      --indigo: #6610f2;
+    }
+
+    .my-text-indigo { color: --indigo;}
+    .my-bg-indigo { background-color: --indigo;}
+    .my-border-indigo {border-color: --indigo}
+  </style>
 
 </head>
-<body >
+<body class="container mt-3">
   
-  <h1>Bootstrap</h1>
+  <h1 class="bg-primary text-light w-25 rounded pl-2 p-1">Bootstrap</h1>
 
   <p>Bootstrap is a framework for CSS</p>
   
@@ -31,7 +41,7 @@
 <h3>Schedule, 2021</h3>
 <h3>Partial Schedule</h3>
 </div>
-    <table >
+    <table  class="table table-hover table-striped table-light">
       <thead>
       <tr>
         <th colspan="2">Team</th>
