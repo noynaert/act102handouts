@@ -11,19 +11,6 @@ meanings don't always work for websites.
 What I have seen is a lot of sites just using the bootstrap colors for a general color palette.  They aren't too bad as a color palette.  They are basically a pastel color
 palette with a modern feel.  It is possible to do warm, cool, neutral, and even monochromatic themes, especially if you use SASS.  SASS is a tool used very commonly in the industry, but we will not cover it in this unit.
 
-## Standard Foreground Colors:
-
-* .text-muted
-* .text-primary
-* .text-success
-* .text-info, .text-warning
-* .text-danger 
-* .text-secondary 
-* .text-white 
-* .text-dark 
-* .text-body (default body color/often black)
-* .text-light
-
 ## Standard Background Colors:
 
 * .bg-primary
@@ -34,6 +21,24 @@ palette with a modern feel.  It is possible to do warm, cool, neutral, and even 
 * .bg-secondary
 * .bg-dark 
 * .bg-light
+  
+## Standard Foreground Colors:
+
+* .text-muted 
+  * not a background color
+* .text-primary
+* .text-success
+* .text-info, 
+* .text-warning
+* .text-danger 
+* .text-secondary 
+* .text-white 
+  * not a background color
+* .text-dark 
+* .text-body 
+  * default body color/often black 
+  * not a background color
+* .text-light
 
 [Illustration of the colors](https://getbootstrap.com/docs/4.5/utilities/colors/)
 
@@ -66,4 +71,3 @@ Define variables and classes.  Give the classes names similar to what Bootstrap 
     .jen-bg-indigo     { background-color: var(--indigo);}
     .jen-border-indigo {border-color: var(--indigo);}
 ```
-
