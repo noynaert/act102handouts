@@ -1,0 +1,8 @@
+:root {
+        --orange: #fd7e14;
+        --indigo: #6610f2;
+      }
+
+    .jen-text-indigo { color: var(--indigo);}
+    .jen-bg-indigo { background-color: var(--indigo);}
+    .jen-border-indigo {border-color: var(--indigo);}

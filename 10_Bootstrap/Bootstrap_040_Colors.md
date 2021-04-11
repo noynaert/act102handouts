@@ -54,16 +54,16 @@ value of the -500 level.  SASS and Bootstrap then automatically calculate all of
 
 We can still use CSS with Bootstrap.  In fact, most big sites that use Bootstrap also use CSS.  We need to be careful to place our own CSS *after* our link to Bootstrap.  This is why I like to put the link to bootstrap above the &lt;title> and the link to the local CSS file below the &lt;title>
 
-Define variables and classes.  Give the classes names similar to what Bootstrap would use, but put something like "my-" or your initials in front of them so they are not confusing to you or other developers who come after you.
+Define variables and classes.  Give the classes names similar to what Bootstrap would use, but put something like your initials or some other unique sequence in front of them so they are not confusing to you or other developers who come after you.
 
 ```css
-    .root {
+    :root {
         --orange: #fd7e14;
         --indigo: #6610f2;
       }
 
-    .my-text-indigo { color: --indigo;}
-    .my-bg-indigo { background-color: --indigo;}
-    .my-border-indigo {border-color: --indigo}
+    .jen-text-indigo   { color: var(--indigo);}
+    .jen-bg-indigo     { background-color: var(--indigo);}
+    .jen-border-indigo {border-color: var(--indigo);}
 ```
 
