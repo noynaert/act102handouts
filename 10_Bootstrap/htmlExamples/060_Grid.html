@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap Grid</title>
+    <!-- Local stylesheets go here. -->
+  </head>
+  <body class="m-3">
+    <h1>Grid Model</h1>
+
+    <h2>Always a 3-column grid</h2>
+    <div class="container">
+      <div class="row text-light">
+        <div class="col bg-success">First</div>
+        <div class="col bg-warning">Second</div>
+        <div class="col bg-primary">Third</div>
+      </div>
+    </div>
+
+    <h2>Always a stack</h2>
+    <div class="container">
+      <div class="row text-light">
+        <div class="bg-success">First</div>
+        <div class="bg-warning">Second</div>
+        <div class="bg-primary">Third</div>
+      </div>
+    </div>
+
+    <h2>A stack when narrow, and a grid when large</h2>
+    <div class="container">
+      <div class="row text-light">
+        <div class="col-lg bg-success">First</div>
+        <div class="col-lg bg-warning">Second</div>
+        <div class="col-lg bg-primary">Third</div>
+      </div>
+    </div>
+
+    <h2>Always columns</h2>
+    <div class="container">
+      <div class="row text-light">
+        <div class="col bg-success">First</div>
+        <div class="col bg-warning">Second</div>
+        <div class="col bg-primary">Third</div>
+      </div>
+    </div>
+
+    <h2>Responsive columns</h2>
+    <div class="container">
+      <div class="row text-light">
+        <div class="col-sm-4 col-md-6 bg-success">First</div>
+        <div class="col-sm-4 col-md-2 bg-warning">Second</div>
+        <div class="col-sm-4 col-md-4 bg-primary">Third</div>
+      </div>
+    </div>
+
+    <hr />
+    <h2>Grid with text</h2>
+    <div class="w-25 float-start d-none d-md-block">
+      <img class="w-100" src="images/NewTux.svg" alt="Tux, the Linux Mascot" />
+    </div>
+    <div class="container">
+      <div class="row border-bottom">
+        <div class="col">
+          <h3>First</h3>
+          <p>
+            Consectetur ex aute adipisicing culpa non tempor enim consectetur
+            dolor in.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Second</h3>
+          <p>Culpa eu voluptate commodo aliquip.</p>
+        </div>
+        <div class="col">
+          <h3>Third</h3>
+          <p>
+            Ut aute Lorem consectetur mollit aliquip do nulla nostrud occaecat
+            irure labore culpa.
+          </p>
+        </div>
+      </div>
+      <div class="row border-bottom">
+        <div class="col">
+          <h3>First</h3>
+          <p>
+            Consectetur ex aute adipisicing culpa non tempor enim consectetur
+            dolor in.
+          </p>
+        </div>
+        <div class="col">
+          <h3>Second</h3>
+          <p>Culpa eu voluptate commodo aliquip.</p>
+        </div>
+        <div class="col">
+          <h3>Third</h3>
+          <p>
+            Ut aute Lorem consectetur mollit aliquip do nulla nostrud occaecat
+            irure labore culpa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="w-25 float-start d-none d-md-block">      
+  <img class="w-100"src="images/NewTux.svg" alt="Tux, the Linux Mascot" />
+</div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
