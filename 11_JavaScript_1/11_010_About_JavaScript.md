@@ -2,9 +2,12 @@
 
 ## History
 
-What we now know as JavaScript was developed in 1995 by Netscape, a forerunner of the FireFox browser.
-
 ![Netscape Logo](images/Netscape_icon_2007.svg.png)
+
+* What we now know as JavaScript was developed in 1995 by Netscape, a forerunner of the FireFox browser.
+* Technically, JavaScript is known as ECMAScript.
+  * Currently we are on ES6
+  * Don't use any tutorials from before 2016 because they may refer to old versions of ES6
 
 ## JavaScript is in the browser
 
@@ -17,6 +20,17 @@ In the late 1990s we had the "Browser War."  Each browser had its own version of
 The European Computer Manufacturers Association (ECMA) ended the browser wars.  They standardized the "DOM" and JavaScript.  The various browsers ended the Browser War and all standardized on the ECMA DOM and JavaScript.  In fact, technically modern JavaScript is "EcmaScript" but we generally use the name JavaScript anyway.
 
 The current version of JavaScript or ***EcmaScript*** was released in late 2015.  There have been minor revisions since then, but the core of EcmaScript is unchanged from 2015.  ***Do not trust any JavaScript video or article written before 2016.*** It probably uses an old version of JavaScript.
+
+## Other Versions of JavaScript
+
+* Node.JS is a version of JavaScript designed to work at the command line.
+  * It runs outside the browser
+  * It comes with a program called "npm" or "Node Package Manager"
+    * Sometimes we load node.js just so we can use npm
+* TypeScript
+  * TypeScript is a product of Microsoft
+  * TypeScript uses data types
+  * TypeScript compiles into JavaScript
 
 ## JavaScript is not Java
 
