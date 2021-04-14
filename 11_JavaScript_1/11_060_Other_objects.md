@@ -1,4 +1,4 @@
-# 13f Other Objects
+# 11.060 Other Objects
 
 So far we have have used "this" to allow an object to modify itself.
 

@@ -1,4 +1,4 @@
-# 13b JavaScript Getting Started
+# 11.020 JavaScript Getting Started
 
 ## Open the Console!
 
