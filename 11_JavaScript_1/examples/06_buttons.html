@@ -6,9 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Two Buttons</title>
   <style>
-    #showPuppy {
-      visibility: hidden;
-    }
+    
   </style>
   <script>
     function highlight(me) {
@@ -18,24 +16,22 @@
       var image;
       var heading = document.getElementById("heading");
       var puppyButton = document.getElementById("showPuppy");
-      puppyButton.style.visibility = "visible";
       heading.innerHTML = "A Crosseyed Kitten";
       image = document.getElementById("pet");
       image.src = "images/kitten.jpg";
       image.alt = "A Kitten";
-      me.style.visibility = "hidden";
+      
       console.log(image);
     }
     function showPuppy(me) {
       var image;
       var heading = document.getElementById("heading");
       var kittenButton = document.getElementById("showKitten");
-      kittenButton.style.visibility = "visible";
+    
       heading.innerHTML = "A Young Puppy";
       image = document.getElementById("pet");
       image.src = "images/puppy.jpg";
       image.alt = "A Puppy";
-      me.style.visibility = "hidden";
       console.log(image);
     }
   </script>
