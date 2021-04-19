@@ -1,4 +1,4 @@
-# 11.040 Variables
+# 11.030 Variables
 
 Variables store data temporarily.
 
@@ -30,8 +30,9 @@ function add(first, second){
 ```
 In the above example the two variable names are "first" and "second."  They are only available within the function itself.
 
-### Declared with ```var```
+### Declared with `var` or `let` or a couple of other commands.
 
+```javascript
 function add(first, second){
  var answer;
  answer = first + second;  //may hold a number
@@ -43,6 +44,7 @@ function add(first, second){
  answer = new Date();  //may hold an object
  console.log(answer;)
 }
+```
 
 ### Variables may be declared and given a value in the same statement.
 

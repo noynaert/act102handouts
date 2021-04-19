@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <script>
+    function wasClicked(){
+      alert('Something was clicked');
+    }
+  </script>
+</head>
+<body onload="console.log('I loaded')">
+  <h1>Events </h1>
+    <h2 
+       onmouseover="console.log('Mouse is over')"
+       onmouseout="console.log('Mouse is out')"
+    ">and how to handle them</h2>
+
+    <div>
+      <p><button onclick="wasClicked()">Click Me!</button></p>
+    </div>
+</body>
+</html>

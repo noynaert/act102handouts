@@ -1,4 +1,4 @@
-# 11.030 EventHandlers and functions
+# 11.040 EventHandlers and functions
 
 ## Resources
 
@@ -16,6 +16,7 @@ There are hundreds of events that can happen on a web page.
 In JavaScript event handlers are ***attributes*** that begin with "on"  Here are some examples
 
 * onclick
+* onload (only works in the &lt;body> tag)
 * onmouseover
 * onmouseout
 * onchange

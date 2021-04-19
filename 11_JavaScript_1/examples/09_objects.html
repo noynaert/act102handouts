@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+  <style>
+    body{background-color: lightgoldenrodyellow;}
+  </style>
+  <script>
+    function showPerson(){
+      let person = {
+        firstName : 'Fred',
+        lastName  : "Flintstone",
+        age: 36,
+        happy : function(){
+          console.log("Yabba Dabba Do");
+        }
+      }
+      console.log(person)
+      console.log("First name is " + person.firstName)
+    }
+
+    function changeHeading(message){
+      console.log("Message is " + message);
+      let heading = document.getElementById("heading");
+      console.log(heading);
+      heading.innerHTML = message;
+    }
+
+  </script>
+
+</head>
+<body onload="showPerson()">
+  <h1 id="heading">Hello</h1>
+  <p>
+    <button onclick="changeHeading('Hi')">Hi</button> 
+    <button onclick="changeHeading('Bye')">Bye</button>
+  </p>
+</body>
+</html>
