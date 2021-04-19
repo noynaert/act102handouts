@@ -1,4 +1,4 @@
-# 11.050 Variables
+# 11.040 Variables
 
 Variables store data temporarily.
 
@@ -10,7 +10,8 @@ There are a few pre-defined variables.  We have already seen "this" which refers
 *Names are case sensitive.  "payRate" and "payrate" are different names.
 *There are reserved words like "this" and "function" that may not be used.
 
-In general, keep variable names simple and meaningful.  Start them with lowercase letters.  Blank spaces are not allowed in variable names.  If you want to use two words, run them together and capitalize them like ```payRate```.
+In general, keep variable names simple and meaningful. They usually contain nouns Start them with lowercase letters.  Blank spaces are not allowed in variable names.  If you want to use two words, run them together and capitalize them like ```payRate```.
+
 
 ## Declaring variables
 
@@ -61,3 +62,19 @@ function printer(someId){
 }
 ```
 
+### Arrays
+
+We aren't going to to do a lot with arrays, but we should mention them.
+
+Arrays are a variable that holds a group of values.  There are usually a list of values.
+
+Square brackets [ ] are used around the list of values
+
+Variables that are arrays usually have plural names.  
+
+```javascript
+let courses = ['ACT 102', 'CSC 184', 'ENG 104'];
+for (course of courses){
+  console.log('This course is ' + course)
+}
+```
