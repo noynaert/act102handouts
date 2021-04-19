@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <title>States</title>
+    <style>
+      img {
+        width: 200px;
+      }
+    </style>
+    <script src="states.js"></script>
+    <script>
+      function buildTable() {
+        let nf = new Intl.NumberFormat("en-US");
+        let pick = document.getElementById("pick").value.toLowerCase();
+        console.log(pick);
+        let total = 0;
+        let td = "<td>";
+        let tde = "</td>";
+        let tr = "<tr>";
+        let tre = "</tr>";
+        let row = tr;
+        console.log("Picked is", pick);
+        let rows = "";
+        for (state of states) {
+          console.log("processing",state.state)
+          if (state.slug.includes(pick)) {
+            row = tr;
+            row += td + state.state + tde;
+            row += td + state.capital_city + tde;
+            row += '<td class="text-end">' + nf.format(state.population) + tde;
+            row +=
+              td +
+              '<img class="px-3 py-1" alt="State Seal of ' +
+              state.state +
+              '" src="' +
+              state.state_seal_url +
+              '">' +
+              tde;
+            row += tre;
+            total += state.population;
+            rows += row;
+
+            document.getElementById("stateData").innerHTML = rows;
+            document.getElementById("total").innerHTML = nf.format(total);
+          }
+        }
+      }
+    </script>
+  </head>
+  <body onload="buildTable()" class="m-md-3">
+    <h1>States</h1>
+    <div>
+      <p>
+        Type a state name:
+        <input type="text" id="pick" oninput="buildTable()" />
+      </p>
+    </div>
+    <table class="table align-middle">
+      <caption>
+        Data is from
+        https://github.com/CivilServiceUSA/us-states/blob/master/data/states.json
+      </caption>
+      <thead>
+        <tr>
+          <th>State</th>
+          <th>Capital</th>
+          <th class="text-end">Population</th>
+          <th class="text-center">&nbsp;</th>
+        </tr>
+      </thead>
+
+      <tbody id="stateData"></tbody>
+      <tfoot>
+        <tr>
+          <td>Population:</td>
+          <td colspan="2" class="text-end" id="total">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tfoot>
+    </table>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
