@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+    <script>
+      function showColor(me) {
+        console.log(me);
+        console.log(me.value);
+
+        let mainHeading = document.getElementById("mainHeading");
+        if (me.value != "") {
+          mainHeading.style.color = me.value;
+        } else {
+          mainHeading.style.backgroundColor = 'black';
+          mainHeading.style.color = 'white';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="mainHeading">Select</h1>
+    <p>
+      <select onchange="showColor(this)">
+        <option value="">Pick an option</option>
+        <option value="red">Red</option>
+        <option>Green</option>
+        <option value="blue">Blue</option>
+      </select>
+    </p>
+  </body>
+</html>

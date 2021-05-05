@@ -11,33 +11,79 @@
       function launch() {
         let heading = document.getElementById("mainHeading");
         console.log(heading);
+        console.log(heading.innerText)
+        heading.innerHTML = "MWSU <i>Lacrosse</i>"
+
+        let link = document.getElementById("team");
+        console.log(link);
+        link.href="https://gogriffons.com/sports/womens-lacrosse"
+
+        let coaches = document.getElementById('coaches')
+        coaches.style.visibility = "visible";
+      }
+      function changePlayer(name, source){
+        let nameElement = document.getElementById("playerName");
+        nameElement.innerText = name;
+        nameElement.style.color = 'gold';
+
+        let playerPicture = document.getElementById("playerPicture");
+        playerPicture.src = source;
+        playerPicture.alt = name;
+
+        let coaches = document.getElementById('coaches')
+        coaches.style.visibility = "hidden";
+      }
+      function showHeadCoach(){
+        let headCoach = document.getElementById("headCoach")
+        console.log(headCoach.classList)
+        headCoach.classList.add("text-primary");
+        // headCoach.classList.remove("bg-warning")
+        headCoach.classList.toggle('bg-warning');
       }
     </script>
   </head>
   <body" class="m-3">
-    <p><button onclick="launch()"">GO!</button></p>
+    <p>
+      <button onclick="launch()"">GO!</button>
+    </p>
     <h1 id="mainHeading">???</h1>
-    
+
+<p id="sports">
+      You may read about this subject at
+      <a id="team" href="https://gogriffons.com">MWSU Sports</a>.
+    </p>
+
+
     <figure id="player">
       <img
-        id="picture"
+        id="playerPicture"
         src="images/150x267JordanShughrue.png"
         alt="Jordan Shughre"
         class="d-block"
       />
-      <caption id="name" class="d-block">
-        <h2 class="p-3">Jordan Shughrue</h2>
+      <caption class="d-block">
+        <h2 id="playerName" class="p-3">Jordan Shughrue</h2>
       </caption>
     </figure>
+
+    <p>
+      <button onclick="changePlayer('Karlin York', 'images/150x267Karlin York.png')">Karlin York</button>
+      <button onclick="changePlayer('Jordan Shughrue','images/150x267JordanShughrue.png')">Jordan Shughrue</button>
+    </p>
+
     <p id="sports">
       You may read about this subject at
       <a id="team" href="https://gogriffons.com">MWSU Sports</a>.
     </p>
-    <p>
-      The coaching staff is led by Head Coach <span class="coach">Rachel Benzing</span>.
-      <span id="headCoach" class="coach bg-warning font-weight-bold">Courtney Baker</span> is the Assistant 
+
+    <div id="coaches" onmouseOver="showHeadCoach()">
+      <h2>Coaches</h2>
+      <p>
+      The coaching staff is led by Head Coach <span  id="headCoach" class="coach bg-warning">Rachel Benzing</span>.
+      <span class="coach">Courtney Baker</span> is the Assistant 
       Coach, and <span id="coach">Garland Fiser</span> is the Graduate 
-      Assistant.</p>
-    </p>
+      Assistant.
+    </p> 
+    </div>
   </body>
 </html>

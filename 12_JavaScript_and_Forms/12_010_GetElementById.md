@@ -56,8 +56,22 @@ Attributes may be changed in a manner similar to innerText and innerHTML. Simply
    let linkTag.href="https://gogriffons.com";
 ```
 
+## Changing the style
+
+- Works like changing an attribute, except that we also have to add the property, then give the value
+
+```javascript
+heading.style.color = "#ff0000";
+```
+
 ## Adding Classes
 
-Note that changing the class with a simple assignment would do away with any existing classes associated with the element. This is especially significant when working with Bootstrap. Classes may have many classes, and you don'twant to destroy them.  
+Note that changing the class with a simple assignment would do away with any existing classes associated with the element. This is especially significant when working with Bootstrap. Classes may have many classes, and you don't want to destroy them.
 
-The function `addClass()` comes to the rescue.
+The `classlist` field is a list of the classes that apply to an element
+
+The function `classList.add()` adds an additional element
+
+The function `classList.remove()` will remove a class while leaving the other classes undisturbed.
+
+The function `classList.toggle()` removes the class if it exists and activates it if it is not.

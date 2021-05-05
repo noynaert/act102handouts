@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doubler</title>
+    <script>
+      function doubleIt() {
+        let numberField = document.getElementById("numberField");
+        console.log(numberField.value);
+        let value = numberField.value;
+        value = parseFloat(value);
+        let double = value + value;
+        let result = document.getElementById("result");
+        result.style.visibility = "visible";
+        result.innerText = double;
+      }
+    </script>
+    <style>
+      #result {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Doubler</h2>
+    <p>
+      <label>Type a number</label>
+      <input type="number" oninput="doubleIt()" id="numberField" />
+    </p>
+  </body>
+  <p><button onclick="doubleIt()">Click to double</button></p>
+  <p id="result">Nothing yet</p>
+</html>
