@@ -6,6 +6,12 @@ This unit is here for reference.  I will not put Unit 00 on an exam.  However, y
 
 It is also OK to go through this unit before the first day of class.
 
+## And assumption
+
+I am assuming that most people in this class are somewhat computer literate.  Therefore I assume that most people can do things like follow a link to a url, install a file, and open Windows Explorer.
+
+But I also realize that everyone has some gaps in their knowledge.  So please don't be afraid to ask if I seem to be assuming that you know something and you don't.  To a large extent, this Unit00 is based on things I have discovered that some people need review over.  I also ask the more advanced users to be patient and to offer assistance to class members who may not be as advanced as they are on some topics.
+
 ## What is *nix
 
 The term *nix is often used to indicate "Any unix-like operating system."  
