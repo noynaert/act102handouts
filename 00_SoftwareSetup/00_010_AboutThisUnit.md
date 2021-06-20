@@ -18,10 +18,10 @@ Newer, fully updated Chromebooks should, in theory, work for this course.  Howev
 
 ## Table of Contents for this unit
 
-* ![How to make Windows 10 show file extensions](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_020_Windows_Setup.md) *Only for Windows users* This unit talks about file names and extensions.  At the end there is a description about how to change Windows 10 so that file extensions are shown.
-* ![Setting up VS Code](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_030_VS_Code.md) *Windows and *nix users*  VS Code is the main editor we will use this semester.  This video shows two important things:
+* [How to make Windows 10 show file extensions](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_020_Windows_Setup.md) *Only for Windows users* This unit talks about file names and extensions.  At the end there is a description about how to change Windows 10 so that file extensions are shown.
+* [Setting up VS Code](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_030_VS_Code.md) *Windows and *nix users*  VS Code is the main editor we will use this semester.  This video shows two important things:
   * How to use the VS Code interface
   * What extensions you will need for this course
-* ![Bitvise for SFTP]() *Windows Only*
-* ![FileZilla for SFTP]() *Windows and *nix users* FileZilla is an alternative to Bitvise.  However, it does have some dangers, especially for Windows users.  It is a safer option for *nix users.
-* ![Setting up VS Code for SFTP]() Bitvise will get you through this course.  But you may prefer to use VS Code directly.
+* [Bitvise for SFTP](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_040_Bitvise_for_SFTP.md) *Windows Only*
+* [FileZilla for SFTP](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_045_FileZilla.md) *\*nix users and maybe Windows users* FileZilla is an alternative to Bitvise.  However, it does have some dangers, especially for Windows users.  It is a safer option for *nix users.
+* [Setting up VS Code for SFTP](https://github.com/noynaert/act102handouts/blob/master/00_SoftwareSetup/00_050_SFTP_in_VS_Code.md) *Windows and *nix users* Bitvise will get you through this course.  But you may prefer to use VS Code directly.
