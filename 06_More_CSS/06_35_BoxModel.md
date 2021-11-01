@@ -2,7 +2,7 @@
 
 https://www.w3schools.com/css/css_boxmodel.asp
 
-![Box Model](../box.gif)
+![Box Model](box.gif)
 
 ---
 
